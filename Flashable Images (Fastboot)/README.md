@@ -1,7 +1,7 @@
 # Horizen Jam 1.0 — Fastboot Images (Meta Quest 1 / `monterey`)
 
 ## Requirements
-- **Meta Quest 1 (`monterey`)** on v50 firmware with an **unlocked bootloader**
+- **Meta Quest 1 (`monterey`)** with an **unlocked bootloader**
 - Android `platform-tools` (`fastboot`) installed on your PC
 
 > **WARNING:** **Never** run `fastboot -w` on Meta Quest 1. To factory reset cleanly after flashing, use the built-in **Settings → Jam Internals → Factory Reset** inside Horizen Jam.
