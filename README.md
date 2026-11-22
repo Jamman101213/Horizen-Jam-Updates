@@ -1,6 +1,6 @@
 # Horizen Jam - Download and OTA
 
-**Note: this repo is where you can download Horizen Jam, and is where the Horizen Jam gets it's updates from. Horizen Jam is not open source!**
+**Note: !!UNRELEASED!! this repo is where you can download Horizen Jam, and is where the Horizen Jam gets it's updates from. Horizen Jam is not open source!**
 
 **Horizen Jam** is a custom Android 10–based firmware engineered specifically for the **Meta Quest 1 (`monterey`)**. Built on the official Quest 1 **v50** (`49845030443200410`) system architecture and infused with backported visual assets, shell layouts, and features from **Meta Quest 3 Horizon OS 2.10**, it unlocks modern capabilities, root customization, and account-free control on original Quest hardware.
 
