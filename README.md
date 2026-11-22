@@ -1,12 +1,10 @@
 # Horizen Jam - Download and OTA
 
-**Note: !!UNRELEASED!! This repo is where you can download Horizen Jam and where it gets its OTA updates from. Horizen Jam is not open source!**
+**Note: This repo is where you can download Horizen Jam and where it gets its OTA updates from. Horizen Jam is not open source!**
 
-=========================================
 Download: https://github.com/Jamman101213/Horizen-Jam-Updates/releases/tag/Fastboot-Installer 
 **Step 1. Unzip the file and run 'adb reboot bootloader' with your device connected.**
 **Step 2. Run the flash bat/sh file.**
-=========================================
 
 **Horizen Jam** is a custom Android 10–based firmware engineered specifically for the **Meta Quest 1 (`monterey`)**. Built on the official Quest 1 **v50** (`49845030443200410`) system architecture and infused with backported visual assets, shell layouts, and features from **Meta Quest 3 Horizon OS 2.10**, it unlocks modern capabilities, root customization, built-in OTA updates, and account-free control on original Quest hardware.
 
