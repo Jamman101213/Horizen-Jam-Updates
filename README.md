@@ -2,7 +2,7 @@
 
 **Note: This repo is where you can download Horizen Jam and where it gets its OTA updates from. I don't have the exact source because its based on Horizon OS V50, I decompiled it and edited the APKs.**
 
-Download: https://github.com/Jamman101213/Horizen-Jam-Updates/releases/tag/Fastboot-Installer 
+Download: [https://github.com/Jamman101213/Horizen-Jam-Updates/releases/tag/Fastboot-Installer ](https://github.com/Jamman101213/Horizen-Jam-Updates/releases/#release-1.0-Fastboot)
 
 **Step 1. Unzip the file and run 'adb reboot bootloader' with your device connected.**
 **Step 2. Run the flash bat/sh file.**
