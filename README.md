@@ -1,6 +1,6 @@
 # Horizen Jam - Download and OTA
 
-**Note: This repo is where you can download Horizen Jam and where it gets its OTA updates from. Horizen Jam is not open source!**
+**Note: This repo is where you can download Horizen Jam and where it gets its OTA updates from. I don't have the exact source because its based on Horizon OS V50, I decompiled it and edited the APKs.**
 
 Download: https://github.com/Jamman101213/Horizen-Jam-Updates/releases/tag/Fastboot-Installer 
 
