@@ -3,6 +3,7 @@
 **Note: This repo is where you can download Horizen Jam and where it gets its OTA updates from. Horizen Jam is not open source!**
 
 Download: https://github.com/Jamman101213/Horizen-Jam-Updates/releases/tag/Fastboot-Installer 
+
 **Step 1. Unzip the file and run 'adb reboot bootloader' with your device connected.**
 **Step 2. Run the flash bat/sh file.**
 
