@@ -12,12 +12,6 @@ The source for 1.21 is now available. Two directories were excluded because they
 * `\system\product\app\webview` (WebView APK)
 * `\system\app\Carmel` (Carmel APK)
 
----
-
-**Shorter version (for Discord/announcements):**
-
-Source for 1.21 is out. `\system\product\app\webview` and `\system\app\Carmel` were excluded since their APKs exceed the 100 MB limit.
-
 **Horizen Jam** is a custom Android 10–based firmware engineered specifically for the **Meta Quest 1 (`monterey`)**. Built on the official Quest 1 **v50** (`49845030443200410`) system architecture and infused with backported visual assets, shell layouts, and features from **Meta Quest 3 Horizon OS 2.10**, it unlocks modern capabilities, root customization, built-in OTA updates, and account-free control on original Quest hardware.
 
 ## Base Architecture
