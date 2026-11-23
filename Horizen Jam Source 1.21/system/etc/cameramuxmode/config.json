@@ -1,0 +1,77 @@
+{
+  "HandTracking": {
+    "consumerToFrameTypesMap": {
+      "HandTrackingEngine": [
+        "HAND"
+      ],
+      "InsideOutTrackingEngine": [
+        "HEADSET"
+      ],
+      "ObjectTrackingEngine": [
+        "HAND",
+        "HEADSET"
+      ],
+      "MrSystemService": [
+        "HEADSET"
+      ]
+    },
+    "frameConfiguration": [
+      "HEADSET",
+      "HAND"
+    ],
+    "frameTypeToExposureAlgorithmMap": {
+      "HAND": "HandTracking",
+      "HEADSET": "InsideOutTracking"
+    }
+  },
+  "HandTrackingUseIOT": {
+    "consumerToFrameTypesMap": {
+      "HandTrackingEngine": [
+        "HAND",
+        "HEADSET"
+      ],
+      "InsideOutTrackingEngine": [
+        "HEADSET"
+      ],
+      "ObjectTrackingEngine": [
+        "HEADSET",
+        "HAND"
+      ],
+      "MrSystemService": [
+        "HEADSET"
+      ]
+    },
+    "frameConfiguration": [
+      "HEADSET",
+      "HAND"
+    ],
+    "frameTypeToExposureAlgorithmMap": {
+      "HAND": "HandTracking",
+      "HEADSET": "InsideOutTracking"
+    }
+  },
+  "default": {
+    "consumerToFrameTypesMap": {
+      "ConstellationTrackingEngine": [
+        "CONTROLLER"
+      ],
+      "InsideOutTrackingEngine": [
+        "HEADSET"
+      ],
+      "ObjectTrackingEngine": [
+        "HEADSET"
+      ],
+      "MrSystemService": [
+        "HEADSET"
+      ]
+    },
+    "frameConfiguration": [
+      "HEADSET",
+      "CONTROLLER"
+    ],
+    "frameTypeToExposureAlgorithmMap": {
+      "HEADSET": "InsideOutTracking",
+      "CONTROLLER": "ConstellationTracking"
+    }
+  }
+}

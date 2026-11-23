@@ -1,0 +1,8 @@
+on post-fs-data
+    mkdir /data/oculus 0750 system system
+    mkdir /data/oculus/cdx 0750 system system
+
+service cdxserver /system/bin/cdxserver
+    class core
+    user system
+    group system

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "rom": "Horizen Jam 1.0",
+  "build_code": "HJ-0001",
+  "host_device": {
+    "codename": "monterey",
+    "android_api": 29,
+    "soc": "Snapdragon 835",
+    "gpu": "Adreno 540"
+  },
+  "spoof_target": {
+    "codename": "eureka",
+    "model": "Quest 3",
+    "manufacturer": "Meta",
+    "horizon_os_donor": "53145330026600520",
+    "openxr_api_fallback": "1.0.34"
+  },
+  "hardware_fallbacks": {
+    "XR_FB_passthrough": "fallback_monochrome_insight",
+    "XR_META_environment_depth": "return_unsupported_graceful",
+    "XR_FB_face_tracking2": "return_neutral_weights",
+    "XR_FB_eye_tracking_social": "return_center_gaze",
+    "XR_FB_scene_capture": "fallback_guardian_bounds",
+    "XR_META_simultaneous_hands_controllers": "prefer_active_input"
+  },
+  "per_app_overrides": {}
+}

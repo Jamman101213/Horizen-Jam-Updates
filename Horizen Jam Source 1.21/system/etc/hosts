@@ -1,0 +1,11 @@
+127.0.0.1       localhost
+::1             ip6-localhost
+
+# BEGIN HORIZEN JAM TELEMETRY BLOCK
+0.0.0.0 logging.oculus.com
+0.0.0.0 crash-reporting.oculus.com
+0.0.0.0 b-graph-telemetry.facebook.com
+0.0.0.0 graph-telemetry.facebook.com
+0.0.0.0 an.facebook.com
+0.0.0.0 pixel.facebook.com
+# END HORIZEN JAM TELEMETRY BLOCK

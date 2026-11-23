@@ -1,0 +1,4 @@
+<!-- Indicates that this device should use the Oculus APK LicenseManager -->
+<permissions>
+    <feature name="oculus.software.license_management" />
+</permissions>

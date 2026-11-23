@@ -1,0 +1,25 @@
+on post-fs-data
+    # Create directory for tracking service information
+    mkdir /data/misc/tracking 0777 system system
+
+on early-boot
+    # create tracking cpuset
+    mkdir /dev/cpuset/tracking 0750 root system
+    write /dev/cpuset/tracking/cpus 0-3
+    write /dev/cpuset/tracking/mems 0
+    chmod 0664 /dev/cpuset/tracking/tasks
+    # create object_tracking cpuset
+    mkdir /dev/cpuset/object_tracking
+    write /dev/cpuset/object_tracking/cpus 0-3
+    write /dev/cpuset/object_tracking/mems 0
+    chown system system /dev/cpuset/object_tracking
+    chown system system /dev/cpuset/object_tracking/tasks
+    chmod 0664 /dev/cpuset/object_tracking/tasks
+
+service trackingservice /system/bin/trackingservice
+    class late_start
+    user system
+    group system uhid inet
+    capabilities SYS_NICE
+    writepid /dev/cpuset/tracking/tasks
+    ioprio rt 4

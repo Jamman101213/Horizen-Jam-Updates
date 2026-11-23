@@ -1,0 +1,25 @@
+on init
+    chown system system /sys/class/power_supply/bms/capacity
+    chown system system /sys/class/power_supply/bms/capacity_raw
+    chown system system /sys/class/power_supply/bms/charge_counter_shadow
+    chown system system /sys/class/power_supply/bms/charge_full
+    chown system system /sys/class/power_supply/bms/current_now
+    chown system system /sys/class/power_supply/bms/cycle_count
+    chown system system /sys/class/power_supply/bms/device/cycle_counts_buckets
+    chown system system /sys/class/power_supply/bms/resistance
+    chown system system /sys/class/power_supply/bms/temp
+    chown system system /sys/class/power_supply/bms/voltage_now
+    chown system system /sys/class/power_supply/main/voltage_max
+
+on post-fs-data
+    mkdir /persist/battery system system
+    chmod 0750 /persist/battery
+    chown root system /persist/battery/cycle_stats.bin
+    chmod 0640 /persist/battery/cycle_stats.bin
+
+service vendor.health-hal-2-0 /vendor/bin/hw/android.hardware.health@2.0-service.monterey
+    interface android.hardware.health@2.0::IHealth default
+    class hal
+    user system
+    group root system mtp
+    file /dev/kmsg w

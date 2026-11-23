@@ -1,0 +1,4 @@
+service runtimeipcbroker /system/bin/runtimeipcbroker
+    class late_start
+    user system
+    group system

@@ -1,0 +1,6 @@
+service oculus-hardware-telemetry-1-0 /system/bin/hw/vendor.oculus.hardware.telemetry@1.0-service
+    disabled # HORIZEN_JAM_DISABLED
+    interface vendor.oculus.hardware.telemetry@1.0::IDeviceTelemetry default
+    class hal
+    user system
+    group system

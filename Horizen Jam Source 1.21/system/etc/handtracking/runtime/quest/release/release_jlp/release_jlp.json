@@ -1,0 +1,2381 @@
+{
+  "version": "HEXAGON-0.1",
+  "name": "mf_jlp_xirj2b_v21.15_DC1_NDE_v4_dsp",
+  "const_node": [
+    {"id": 2, "shape": [ 4 ], "location": [ 0, 16 ]},
+    {"id": 3, "shape": [ 1 ], "location": [ 16, 1 ]},
+    {"id": 4, "shape": [ 4 ], "location": [ 17, 16 ]},
+    {"id": 6, "shape": [ 1 ], "location": [ 33, 4 ]},
+    {"id": 7, "shape": [ 1 ], "location": [ 37, 4 ]},
+    {"id": 10, "shape": [ 2, 2 ], "location": [ 0, 0 ]},
+    {"id": 11, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 12, "shape": [ 1 ], "location": [ 41, 4 ]},
+    {"id": 13, "shape": [ 1 ], "location": [ 45, 4 ]},
+    {"id": 14, "shape": [ 1 ], "location": [ 49, 4 ]},
+    {"id": 15, "shape": [ 1 ], "location": [ 53, 8 ]},
+    {"id": 16, "shape": [ 1, 8, 32, 4 ], "location": [ 61, 1024 ]},
+    {"id": 17, "shape": [ 32 ], "location": [ 1085, 128 ]},
+    {"id": 18, "shape": [ 3, 3, 1, 32 ], "location": [ 0, 0 ]},
+    {"id": 21, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 22, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 23, "shape": [ 1 ], "location": [ 1213, 4 ]},
+    {"id": 24, "shape": [ 1 ], "location": [ 1217, 4 ]},
+    {"id": 25, "shape": [ 1 ], "location": [ 1221, 4 ]},
+    {"id": 26, "shape": [ 1 ], "location": [ 1225, 8 ]},
+    {"id": 27, "shape": [ 1, 3, 128, 4 ], "location": [ 1233, 1536 ]},
+    {"id": 28, "shape": [ 128 ], "location": [ 2769, 512 ]},
+    {"id": 29, "shape": [ 3, 3, 1, 32 ], "location": [ 0, 0 ]},
+    {"id": 32, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 33, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 34, "shape": [ 1 ], "location": [ 3281, 4 ]},
+    {"id": 35, "shape": [ 1 ], "location": [ 3285, 4 ]},
+    {"id": 36, "shape": [ 1 ], "location": [ 3289, 4 ]},
+    {"id": 37, "shape": [ 1 ], "location": [ 3293, 8 ]},
+    {"id": 38, "shape": [ 1, 8, 32, 4 ], "location": [ 3301, 1024 ]},
+    {"id": 39, "shape": [ 32 ], "location": [ 4325, 128 ]},
+    {"id": 40, "shape": [ 1, 1, 32, 32 ], "location": [ 0, 0 ]},
+    {"id": 42, "shape": [ 1 ], "location": [ 4453, 4 ]},
+    {"id": 43, "shape": [ 1 ], "location": [ 4457, 4 ]},
+    {"id": 44, "shape": [ 1 ], "location": [ 4461, 4 ]},
+    {"id": 45, "shape": [ 1 ], "location": [ 4465, 4 ]},
+    {"id": 46, "shape": [ 1 ], "location": [ 4469, 4 ]},
+    {"id": 47, "shape": [ 1 ], "location": [ 4473, 4 ]},
+    {"id": 50, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 51, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 52, "shape": [ 1 ], "location": [ 4477, 4 ]},
+    {"id": 53, "shape": [ 1 ], "location": [ 4481, 4 ]},
+    {"id": 54, "shape": [ 1 ], "location": [ 4485, 4 ]},
+    {"id": 55, "shape": [ 1 ], "location": [ 4489, 8 ]},
+    {"id": 56, "shape": [ 3, 8, 32, 4 ], "location": [ 4497, 3072 ]},
+    {"id": 57, "shape": [ 96 ], "location": [ 7569, 384 ]},
+    {"id": 58, "shape": [ 1, 1, 32, 96 ], "location": [ 0, 0 ]},
+    {"id": 61, "shape": [ 2, 2 ], "location": [ 0, 0 ]},
+    {"id": 62, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 63, "shape": [ 1 ], "location": [ 7953, 4 ]},
+    {"id": 64, "shape": [ 1 ], "location": [ 7957, 4 ]},
+    {"id": 65, "shape": [ 1 ], "location": [ 7961, 4 ]},
+    {"id": 66, "shape": [ 1 ], "location": [ 7965, 8 ]},
+    {"id": 67, "shape": [ 1, 3, 128, 4 ], "location": [ 7973, 1536 ]},
+    {"id": 68, "shape": [ 128 ], "location": [ 9509, 512 ]},
+    {"id": 69, "shape": [ 3, 3, 1, 96 ], "location": [ 0, 0 ]},
+    {"id": 72, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 73, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 74, "shape": [ 1 ], "location": [ 10021, 4 ]},
+    {"id": 75, "shape": [ 1 ], "location": [ 10025, 4 ]},
+    {"id": 76, "shape": [ 1 ], "location": [ 10029, 4 ]},
+    {"id": 77, "shape": [ 1 ], "location": [ 10033, 8 ]},
+    {"id": 78, "shape": [ 1, 24, 32, 4 ], "location": [ 10041, 3072 ]},
+    {"id": 79, "shape": [ 32 ], "location": [ 13113, 128 ]},
+    {"id": 80, "shape": [ 1, 1, 96, 32 ], "location": [ 0, 0 ]},
+    {"id": 83, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 84, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 85, "shape": [ 1 ], "location": [ 13241, 4 ]},
+    {"id": 86, "shape": [ 1 ], "location": [ 13245, 4 ]},
+    {"id": 87, "shape": [ 1 ], "location": [ 13249, 4 ]},
+    {"id": 88, "shape": [ 1 ], "location": [ 13253, 8 ]},
+    {"id": 89, "shape": [ 6, 8, 32, 4 ], "location": [ 13261, 6144 ]},
+    {"id": 90, "shape": [ 192 ], "location": [ 19405, 768 ]},
+    {"id": 91, "shape": [ 1, 1, 32, 192 ], "location": [ 0, 0 ]},
+    {"id": 94, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 95, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 96, "shape": [ 1 ], "location": [ 20173, 4 ]},
+    {"id": 97, "shape": [ 1 ], "location": [ 20177, 4 ]},
+    {"id": 98, "shape": [ 1 ], "location": [ 20181, 4 ]},
+    {"id": 99, "shape": [ 1 ], "location": [ 20185, 8 ]},
+    {"id": 100, "shape": [ 2, 3, 128, 4 ], "location": [ 20193, 3072 ]},
+    {"id": 101, "shape": [ 256 ], "location": [ 23265, 1024 ]},
+    {"id": 102, "shape": [ 3, 3, 1, 192 ], "location": [ 0, 0 ]},
+    {"id": 105, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 106, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 107, "shape": [ 1 ], "location": [ 24289, 4 ]},
+    {"id": 108, "shape": [ 1 ], "location": [ 24293, 4 ]},
+    {"id": 109, "shape": [ 1 ], "location": [ 24297, 4 ]},
+    {"id": 110, "shape": [ 1 ], "location": [ 24301, 8 ]},
+    {"id": 111, "shape": [ 1, 48, 32, 4 ], "location": [ 24309, 6144 ]},
+    {"id": 112, "shape": [ 32 ], "location": [ 30453, 128 ]},
+    {"id": 113, "shape": [ 1, 1, 192, 32 ], "location": [ 0, 0 ]},
+    {"id": 115, "shape": [ 1 ], "location": [ 30581, 4 ]},
+    {"id": 116, "shape": [ 1 ], "location": [ 30585, 4 ]},
+    {"id": 117, "shape": [ 1 ], "location": [ 30589, 4 ]},
+    {"id": 118, "shape": [ 1 ], "location": [ 30593, 4 ]},
+    {"id": 119, "shape": [ 1 ], "location": [ 30597, 4 ]},
+    {"id": 120, "shape": [ 1 ], "location": [ 30601, 4 ]},
+    {"id": 123, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 124, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 125, "shape": [ 1 ], "location": [ 30605, 4 ]},
+    {"id": 126, "shape": [ 1 ], "location": [ 30609, 4 ]},
+    {"id": 127, "shape": [ 1 ], "location": [ 30613, 4 ]},
+    {"id": 128, "shape": [ 1 ], "location": [ 30617, 8 ]},
+    {"id": 129, "shape": [ 6, 8, 32, 4 ], "location": [ 30625, 6144 ]},
+    {"id": 130, "shape": [ 192 ], "location": [ 36769, 768 ]},
+    {"id": 131, "shape": [ 1, 1, 32, 192 ], "location": [ 0, 0 ]},
+    {"id": 134, "shape": [ 2, 2 ], "location": [ 0, 0 ]},
+    {"id": 135, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 136, "shape": [ 1 ], "location": [ 37537, 4 ]},
+    {"id": 137, "shape": [ 1 ], "location": [ 37541, 4 ]},
+    {"id": 138, "shape": [ 1 ], "location": [ 37545, 4 ]},
+    {"id": 139, "shape": [ 1 ], "location": [ 37549, 8 ]},
+    {"id": 140, "shape": [ 2, 3, 128, 4 ], "location": [ 37557, 3072 ]},
+    {"id": 141, "shape": [ 256 ], "location": [ 40629, 1024 ]},
+    {"id": 142, "shape": [ 3, 3, 1, 192 ], "location": [ 0, 0 ]},
+    {"id": 145, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 146, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 147, "shape": [ 1 ], "location": [ 41653, 4 ]},
+    {"id": 148, "shape": [ 1 ], "location": [ 41657, 4 ]},
+    {"id": 149, "shape": [ 1 ], "location": [ 41661, 4 ]},
+    {"id": 150, "shape": [ 1 ], "location": [ 41665, 8 ]},
+    {"id": 151, "shape": [ 2, 48, 32, 4 ], "location": [ 41673, 12288 ]},
+    {"id": 152, "shape": [ 64 ], "location": [ 53961, 256 ]},
+    {"id": 153, "shape": [ 1, 1, 192, 64 ], "location": [ 0, 0 ]},
+    {"id": 156, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 157, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 158, "shape": [ 1 ], "location": [ 54217, 4 ]},
+    {"id": 159, "shape": [ 1 ], "location": [ 54221, 4 ]},
+    {"id": 160, "shape": [ 1 ], "location": [ 54225, 4 ]},
+    {"id": 161, "shape": [ 1 ], "location": [ 54229, 8 ]},
+    {"id": 162, "shape": [ 12, 16, 32, 4 ], "location": [ 54237, 24576 ]},
+    {"id": 163, "shape": [ 384 ], "location": [ 78813, 1536 ]},
+    {"id": 164, "shape": [ 1, 1, 64, 384 ], "location": [ 0, 0 ]},
+    {"id": 167, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 168, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 169, "shape": [ 1 ], "location": [ 80349, 4 ]},
+    {"id": 170, "shape": [ 1 ], "location": [ 80353, 4 ]},
+    {"id": 171, "shape": [ 1 ], "location": [ 80357, 4 ]},
+    {"id": 172, "shape": [ 1 ], "location": [ 80361, 8 ]},
+    {"id": 173, "shape": [ 3, 3, 128, 4 ], "location": [ 80369, 4608 ]},
+    {"id": 174, "shape": [ 384 ], "location": [ 84977, 1536 ]},
+    {"id": 175, "shape": [ 3, 3, 1, 384 ], "location": [ 0, 0 ]},
+    {"id": 178, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 179, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 180, "shape": [ 1 ], "location": [ 86513, 4 ]},
+    {"id": 181, "shape": [ 1 ], "location": [ 86517, 4 ]},
+    {"id": 182, "shape": [ 1 ], "location": [ 86521, 4 ]},
+    {"id": 183, "shape": [ 1 ], "location": [ 86525, 8 ]},
+    {"id": 184, "shape": [ 2, 96, 32, 4 ], "location": [ 86533, 24576 ]},
+    {"id": 185, "shape": [ 64 ], "location": [ 111109, 256 ]},
+    {"id": 186, "shape": [ 1, 1, 384, 64 ], "location": [ 0, 0 ]},
+    {"id": 188, "shape": [ 1 ], "location": [ 111365, 4 ]},
+    {"id": 189, "shape": [ 1 ], "location": [ 111369, 4 ]},
+    {"id": 190, "shape": [ 1 ], "location": [ 111373, 4 ]},
+    {"id": 191, "shape": [ 1 ], "location": [ 111377, 4 ]},
+    {"id": 192, "shape": [ 1 ], "location": [ 111381, 4 ]},
+    {"id": 193, "shape": [ 1 ], "location": [ 111385, 4 ]},
+    {"id": 196, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 197, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 198, "shape": [ 1 ], "location": [ 111389, 4 ]},
+    {"id": 199, "shape": [ 1 ], "location": [ 111393, 4 ]},
+    {"id": 200, "shape": [ 1 ], "location": [ 111397, 4 ]},
+    {"id": 201, "shape": [ 1 ], "location": [ 111401, 8 ]},
+    {"id": 202, "shape": [ 12, 16, 32, 4 ], "location": [ 111409, 24576 ]},
+    {"id": 203, "shape": [ 384 ], "location": [ 135985, 1536 ]},
+    {"id": 204, "shape": [ 1, 1, 64, 384 ], "location": [ 0, 0 ]},
+    {"id": 207, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 208, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 209, "shape": [ 1 ], "location": [ 137521, 4 ]},
+    {"id": 210, "shape": [ 1 ], "location": [ 137525, 4 ]},
+    {"id": 211, "shape": [ 1 ], "location": [ 137529, 4 ]},
+    {"id": 212, "shape": [ 1 ], "location": [ 137533, 8 ]},
+    {"id": 213, "shape": [ 3, 3, 128, 4 ], "location": [ 137541, 4608 ]},
+    {"id": 214, "shape": [ 384 ], "location": [ 142149, 1536 ]},
+    {"id": 215, "shape": [ 3, 3, 1, 384 ], "location": [ 0, 0 ]},
+    {"id": 218, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 219, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 220, "shape": [ 1 ], "location": [ 143685, 4 ]},
+    {"id": 221, "shape": [ 1 ], "location": [ 143689, 4 ]},
+    {"id": 222, "shape": [ 1 ], "location": [ 143693, 4 ]},
+    {"id": 223, "shape": [ 1 ], "location": [ 143697, 8 ]},
+    {"id": 224, "shape": [ 2, 96, 32, 4 ], "location": [ 143705, 24576 ]},
+    {"id": 225, "shape": [ 64 ], "location": [ 168281, 256 ]},
+    {"id": 226, "shape": [ 1, 1, 384, 64 ], "location": [ 0, 0 ]},
+    {"id": 228, "shape": [ 1 ], "location": [ 168537, 4 ]},
+    {"id": 229, "shape": [ 1 ], "location": [ 168541, 4 ]},
+    {"id": 230, "shape": [ 1 ], "location": [ 168545, 4 ]},
+    {"id": 231, "shape": [ 1 ], "location": [ 168549, 4 ]},
+    {"id": 232, "shape": [ 1 ], "location": [ 168553, 4 ]},
+    {"id": 233, "shape": [ 1 ], "location": [ 168557, 4 ]},
+    {"id": 236, "shape": [ 1 ], "location": [ 168561, 4 ]},
+    {"id": 237, "shape": [ 1 ], "location": [ 168565, 4 ]},
+    {"id": 238, "shape": [ 1 ], "location": [ 168569, 4 ]},
+    {"id": 239, "shape": [ 1 ], "location": [ 168573, 8 ]},
+    {"id": 240, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 241, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 242, "shape": [ 144, 16, 32, 4 ], "location": [ 168581, 294912 ]},
+    {"id": 243, "shape": [ 4608 ], "location": [ 463493, 18432 ]},
+    {"id": 244, "shape": [ 1, 1, 63, 4608 ], "location": [ 0, 0 ]},
+    {"id": 245, "shape": [ 4 ], "location": [ 481925, 16 ]},
+    {"id": 247, "shape": [ 1 ], "location": [ 481941, 4 ]},
+    {"id": 248, "shape": [ 1 ], "location": [ 481945, 4 ]},
+    {"id": 249, "shape": [ 2 ], "location": [ 481949, 8 ]},
+    {"id": 251, "shape": [ 1 ], "location": [ 481957, 4 ]},
+    {"id": 252, "shape": [ 1 ], "location": [ 481961, 4 ]},
+    {"id": 253, "shape": [ 1 ], "location": [ 481965, 4 ]},
+    {"id": 254, "shape": [ 1 ], "location": [ 481969, 4 ]},
+    {"id": 256, "shape": [ 1 ], "location": [ 481973, 4 ]},
+    {"id": 257, "shape": [ 1 ], "location": [ 481977, 4 ]},
+    {"id": 259, "shape": [ 4 ], "location": [ 481981, 16 ]},
+    {"id": 261, "shape": [ 1 ], "location": [ 481997, 4 ]},
+    {"id": 262, "shape": [ 1 ], "location": [ 482001, 4 ]},
+    {"id": 263, "shape": [ 0, 2, 3, 1 ], "location": [ 0, 0 ]},
+    {"id": 265, "shape": [ 1 ], "location": [ 482005, 4 ]},
+    {"id": 266, "shape": [ 1 ], "location": [ 482009, 4 ]},
+    {"id": 268, "shape": [ 1 ], "location": [ 482013, 4 ]},
+    {"id": 269, "shape": [ 1 ], "location": [ 482017, 4 ]},
+    {"id": 270, "shape": [ 1 ], "location": [ 482021, 4 ]},
+    {"id": 271, "shape": [ 1 ], "location": [ 482025, 4 ]},
+    {"id": 275, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 276, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 277, "shape": [ 1 ], "location": [ 482029, 4 ]},
+    {"id": 278, "shape": [ 1 ], "location": [ 482033, 4 ]},
+    {"id": 279, "shape": [ 1 ], "location": [ 482037, 4 ]},
+    {"id": 280, "shape": [ 1 ], "location": [ 482041, 8 ]},
+    {"id": 281, "shape": [ 12, 24, 32, 4 ], "location": [ 482049, 36864 ]},
+    {"id": 282, "shape": [ 384 ], "location": [ 518913, 1536 ]},
+    {"id": 283, "shape": [ 1, 1, 96, 384 ], "location": [ 0, 0 ]},
+    {"id": 286, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 287, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 288, "shape": [ 1 ], "location": [ 520449, 4 ]},
+    {"id": 289, "shape": [ 1 ], "location": [ 520453, 4 ]},
+    {"id": 290, "shape": [ 1 ], "location": [ 520457, 4 ]},
+    {"id": 291, "shape": [ 1 ], "location": [ 520461, 8 ]},
+    {"id": 292, "shape": [ 3, 3, 128, 4 ], "location": [ 520469, 4608 ]},
+    {"id": 293, "shape": [ 384 ], "location": [ 525077, 1536 ]},
+    {"id": 294, "shape": [ 3, 3, 1, 384 ], "location": [ 0, 0 ]},
+    {"id": 297, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 298, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 299, "shape": [ 1 ], "location": [ 526613, 4 ]},
+    {"id": 300, "shape": [ 1 ], "location": [ 526617, 4 ]},
+    {"id": 301, "shape": [ 1 ], "location": [ 526621, 4 ]},
+    {"id": 302, "shape": [ 1 ], "location": [ 526625, 8 ]},
+    {"id": 303, "shape": [ 2, 96, 32, 4 ], "location": [ 526633, 24576 ]},
+    {"id": 304, "shape": [ 64 ], "location": [ 551209, 256 ]},
+    {"id": 305, "shape": [ 1, 1, 384, 64 ], "location": [ 0, 0 ]},
+    {"id": 308, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 309, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 310, "shape": [ 1 ], "location": [ 551465, 4 ]},
+    {"id": 311, "shape": [ 1 ], "location": [ 551469, 4 ]},
+    {"id": 312, "shape": [ 1 ], "location": [ 551473, 4 ]},
+    {"id": 313, "shape": [ 1 ], "location": [ 551477, 8 ]},
+    {"id": 314, "shape": [ 12, 16, 32, 4 ], "location": [ 551485, 24576 ]},
+    {"id": 315, "shape": [ 384 ], "location": [ 576061, 1536 ]},
+    {"id": 316, "shape": [ 1, 1, 64, 384 ], "location": [ 0, 0 ]},
+    {"id": 319, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 320, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 321, "shape": [ 1 ], "location": [ 577597, 4 ]},
+    {"id": 322, "shape": [ 1 ], "location": [ 577601, 4 ]},
+    {"id": 323, "shape": [ 1 ], "location": [ 577605, 4 ]},
+    {"id": 324, "shape": [ 1 ], "location": [ 577609, 8 ]},
+    {"id": 325, "shape": [ 3, 3, 128, 4 ], "location": [ 577617, 4608 ]},
+    {"id": 326, "shape": [ 384 ], "location": [ 582225, 1536 ]},
+    {"id": 327, "shape": [ 3, 3, 1, 384 ], "location": [ 0, 0 ]},
+    {"id": 330, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 331, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 332, "shape": [ 1 ], "location": [ 583761, 4 ]},
+    {"id": 333, "shape": [ 1 ], "location": [ 583765, 4 ]},
+    {"id": 334, "shape": [ 1 ], "location": [ 583769, 4 ]},
+    {"id": 335, "shape": [ 1 ], "location": [ 583773, 8 ]},
+    {"id": 336, "shape": [ 2, 96, 32, 4 ], "location": [ 583781, 24576 ]},
+    {"id": 337, "shape": [ 64 ], "location": [ 608357, 256 ]},
+    {"id": 338, "shape": [ 1, 1, 384, 64 ], "location": [ 0, 0 ]},
+    {"id": 340, "shape": [ 1 ], "location": [ 608613, 4 ]},
+    {"id": 341, "shape": [ 1 ], "location": [ 608617, 4 ]},
+    {"id": 342, "shape": [ 1 ], "location": [ 608621, 4 ]},
+    {"id": 343, "shape": [ 1 ], "location": [ 608625, 4 ]},
+    {"id": 344, "shape": [ 1 ], "location": [ 608629, 4 ]},
+    {"id": 345, "shape": [ 1 ], "location": [ 608633, 4 ]},
+    {"id": 348, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 349, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 350, "shape": [ 1 ], "location": [ 608637, 4 ]},
+    {"id": 351, "shape": [ 1 ], "location": [ 608641, 4 ]},
+    {"id": 352, "shape": [ 1 ], "location": [ 608645, 4 ]},
+    {"id": 353, "shape": [ 1 ], "location": [ 608649, 8 ]},
+    {"id": 354, "shape": [ 12, 16, 32, 4 ], "location": [ 608657, 24576 ]},
+    {"id": 355, "shape": [ 384 ], "location": [ 633233, 1536 ]},
+    {"id": 356, "shape": [ 1, 1, 64, 384 ], "location": [ 0, 0 ]},
+    {"id": 359, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 360, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 361, "shape": [ 1 ], "location": [ 634769, 4 ]},
+    {"id": 362, "shape": [ 1 ], "location": [ 634773, 4 ]},
+    {"id": 363, "shape": [ 1 ], "location": [ 634777, 4 ]},
+    {"id": 364, "shape": [ 1 ], "location": [ 634781, 8 ]},
+    {"id": 365, "shape": [ 3, 3, 128, 4 ], "location": [ 634789, 4608 ]},
+    {"id": 366, "shape": [ 384 ], "location": [ 639397, 1536 ]},
+    {"id": 367, "shape": [ 3, 3, 1, 384 ], "location": [ 0, 0 ]},
+    {"id": 370, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 371, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 372, "shape": [ 1 ], "location": [ 640933, 4 ]},
+    {"id": 373, "shape": [ 1 ], "location": [ 640937, 4 ]},
+    {"id": 374, "shape": [ 1 ], "location": [ 640941, 4 ]},
+    {"id": 375, "shape": [ 1 ], "location": [ 640945, 8 ]},
+    {"id": 376, "shape": [ 2, 96, 32, 4 ], "location": [ 640953, 24576 ]},
+    {"id": 377, "shape": [ 64 ], "location": [ 665529, 256 ]},
+    {"id": 378, "shape": [ 1, 1, 384, 64 ], "location": [ 0, 0 ]},
+    {"id": 380, "shape": [ 1 ], "location": [ 665785, 4 ]},
+    {"id": 381, "shape": [ 1 ], "location": [ 665789, 4 ]},
+    {"id": 382, "shape": [ 1 ], "location": [ 665793, 4 ]},
+    {"id": 383, "shape": [ 1 ], "location": [ 665797, 4 ]},
+    {"id": 386, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 387, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 388, "shape": [ 1 ], "location": [ 665801, 4 ]},
+    {"id": 389, "shape": [ 1 ], "location": [ 665805, 4 ]},
+    {"id": 390, "shape": [ 1 ], "location": [ 665809, 4 ]},
+    {"id": 391, "shape": [ 1 ], "location": [ 665813, 8 ]},
+    {"id": 392, "shape": [ 12, 16, 32, 4 ], "location": [ 665821, 24576 ]},
+    {"id": 393, "shape": [ 384 ], "location": [ 690397, 1536 ]},
+    {"id": 394, "shape": [ 1, 1, 64, 384 ], "location": [ 0, 0 ]},
+    {"id": 397, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 398, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 399, "shape": [ 1 ], "location": [ 691933, 4 ]},
+    {"id": 400, "shape": [ 1 ], "location": [ 691937, 4 ]},
+    {"id": 401, "shape": [ 1 ], "location": [ 691941, 4 ]},
+    {"id": 402, "shape": [ 1 ], "location": [ 691945, 8 ]},
+    {"id": 403, "shape": [ 3, 3, 128, 4 ], "location": [ 691953, 4608 ]},
+    {"id": 404, "shape": [ 384 ], "location": [ 696561, 1536 ]},
+    {"id": 405, "shape": [ 3, 3, 1, 384 ], "location": [ 0, 0 ]},
+    {"id": 408, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 409, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 410, "shape": [ 1 ], "location": [ 698097, 4 ]},
+    {"id": 411, "shape": [ 1 ], "location": [ 698101, 4 ]},
+    {"id": 412, "shape": [ 1 ], "location": [ 698105, 4 ]},
+    {"id": 413, "shape": [ 1 ], "location": [ 698109, 8 ]},
+    {"id": 414, "shape": [ 2, 96, 32, 4 ], "location": [ 698117, 24576 ]},
+    {"id": 415, "shape": [ 64 ], "location": [ 722693, 256 ]},
+    {"id": 416, "shape": [ 1, 1, 384, 64 ], "location": [ 0, 0 ]},
+    {"id": 418, "shape": [ 1 ], "location": [ 722949, 4 ]},
+    {"id": 419, "shape": [ 1 ], "location": [ 722953, 4 ]},
+    {"id": 420, "shape": [ 1 ], "location": [ 722957, 4 ]},
+    {"id": 421, "shape": [ 1 ], "location": [ 722961, 4 ]},
+    {"id": 424, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 425, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 426, "shape": [ 1 ], "location": [ 722965, 4 ]},
+    {"id": 427, "shape": [ 1 ], "location": [ 722969, 4 ]},
+    {"id": 428, "shape": [ 1 ], "location": [ 722973, 4 ]},
+    {"id": 429, "shape": [ 1 ], "location": [ 722977, 8 ]},
+    {"id": 430, "shape": [ 12, 16, 32, 4 ], "location": [ 722985, 24576 ]},
+    {"id": 431, "shape": [ 384 ], "location": [ 747561, 1536 ]},
+    {"id": 432, "shape": [ 1, 1, 64, 384 ], "location": [ 0, 0 ]},
+    {"id": 435, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 436, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 437, "shape": [ 1 ], "location": [ 749097, 4 ]},
+    {"id": 438, "shape": [ 1 ], "location": [ 749101, 4 ]},
+    {"id": 439, "shape": [ 1 ], "location": [ 749105, 4 ]},
+    {"id": 440, "shape": [ 1 ], "location": [ 749109, 8 ]},
+    {"id": 441, "shape": [ 3, 3, 128, 4 ], "location": [ 749117, 4608 ]},
+    {"id": 442, "shape": [ 384 ], "location": [ 753725, 1536 ]},
+    {"id": 443, "shape": [ 3, 3, 1, 384 ], "location": [ 0, 0 ]},
+    {"id": 446, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 447, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 448, "shape": [ 1 ], "location": [ 755261, 4 ]},
+    {"id": 449, "shape": [ 1 ], "location": [ 755265, 4 ]},
+    {"id": 450, "shape": [ 1 ], "location": [ 755269, 4 ]},
+    {"id": 451, "shape": [ 1 ], "location": [ 755273, 8 ]},
+    {"id": 452, "shape": [ 3, 96, 32, 4 ], "location": [ 755281, 36864 ]},
+    {"id": 453, "shape": [ 96 ], "location": [ 792145, 384 ]},
+    {"id": 454, "shape": [ 1, 1, 384, 96 ], "location": [ 0, 0 ]},
+    {"id": 457, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 458, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 459, "shape": [ 1 ], "location": [ 792529, 4 ]},
+    {"id": 460, "shape": [ 1 ], "location": [ 792533, 4 ]},
+    {"id": 461, "shape": [ 1 ], "location": [ 792537, 4 ]},
+    {"id": 462, "shape": [ 1 ], "location": [ 792541, 8 ]},
+    {"id": 463, "shape": [ 15, 24, 32, 4 ], "location": [ 792549, 46080 ]},
+    {"id": 464, "shape": [ 480 ], "location": [ 838629, 1920 ]},
+    {"id": 465, "shape": [ 1, 1, 96, 480 ], "location": [ 0, 0 ]},
+    {"id": 468, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 469, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 470, "shape": [ 1 ], "location": [ 840549, 4 ]},
+    {"id": 471, "shape": [ 1 ], "location": [ 840553, 4 ]},
+    {"id": 472, "shape": [ 1 ], "location": [ 840557, 4 ]},
+    {"id": 473, "shape": [ 1 ], "location": [ 840561, 8 ]},
+    {"id": 474, "shape": [ 4, 3, 128, 4 ], "location": [ 840569, 6144 ]},
+    {"id": 475, "shape": [ 512 ], "location": [ 846713, 2048 ]},
+    {"id": 476, "shape": [ 3, 3, 1, 480 ], "location": [ 0, 0 ]},
+    {"id": 479, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 480, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 481, "shape": [ 1 ], "location": [ 848761, 4 ]},
+    {"id": 482, "shape": [ 1 ], "location": [ 848765, 4 ]},
+    {"id": 483, "shape": [ 1 ], "location": [ 848769, 4 ]},
+    {"id": 484, "shape": [ 1 ], "location": [ 848773, 8 ]},
+    {"id": 485, "shape": [ 3, 120, 32, 4 ], "location": [ 848781, 46080 ]},
+    {"id": 486, "shape": [ 96 ], "location": [ 894861, 384 ]},
+    {"id": 487, "shape": [ 1, 1, 480, 96 ], "location": [ 0, 0 ]},
+    {"id": 489, "shape": [ 1 ], "location": [ 895245, 4 ]},
+    {"id": 490, "shape": [ 1 ], "location": [ 895249, 4 ]},
+    {"id": 491, "shape": [ 1 ], "location": [ 895253, 4 ]},
+    {"id": 492, "shape": [ 1 ], "location": [ 895257, 4 ]},
+    {"id": 493, "shape": [ 1 ], "location": [ 895261, 4 ]},
+    {"id": 494, "shape": [ 1 ], "location": [ 895265, 4 ]},
+    {"id": 497, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 498, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 499, "shape": [ 1 ], "location": [ 895269, 4 ]},
+    {"id": 500, "shape": [ 1 ], "location": [ 895273, 4 ]},
+    {"id": 501, "shape": [ 1 ], "location": [ 895277, 4 ]},
+    {"id": 502, "shape": [ 1 ], "location": [ 895281, 8 ]},
+    {"id": 503, "shape": [ 15, 24, 32, 4 ], "location": [ 895289, 46080 ]},
+    {"id": 504, "shape": [ 480 ], "location": [ 941369, 1920 ]},
+    {"id": 505, "shape": [ 1, 1, 96, 480 ], "location": [ 0, 0 ]},
+    {"id": 508, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 509, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 510, "shape": [ 1 ], "location": [ 943289, 4 ]},
+    {"id": 511, "shape": [ 1 ], "location": [ 943293, 4 ]},
+    {"id": 512, "shape": [ 1 ], "location": [ 943297, 4 ]},
+    {"id": 513, "shape": [ 1 ], "location": [ 943301, 8 ]},
+    {"id": 514, "shape": [ 4, 3, 128, 4 ], "location": [ 943309, 6144 ]},
+    {"id": 515, "shape": [ 512 ], "location": [ 949453, 2048 ]},
+    {"id": 516, "shape": [ 3, 3, 1, 480 ], "location": [ 0, 0 ]},
+    {"id": 519, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 520, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 521, "shape": [ 1 ], "location": [ 951501, 4 ]},
+    {"id": 522, "shape": [ 1 ], "location": [ 951505, 4 ]},
+    {"id": 523, "shape": [ 1 ], "location": [ 951509, 4 ]},
+    {"id": 524, "shape": [ 1 ], "location": [ 951513, 8 ]},
+    {"id": 525, "shape": [ 3, 120, 32, 4 ], "location": [ 951521, 46080 ]},
+    {"id": 526, "shape": [ 96 ], "location": [ 997601, 384 ]},
+    {"id": 527, "shape": [ 1, 1, 480, 96 ], "location": [ 0, 0 ]},
+    {"id": 529, "shape": [ 1 ], "location": [ 997985, 4 ]},
+    {"id": 530, "shape": [ 1 ], "location": [ 997989, 4 ]},
+    {"id": 531, "shape": [ 1 ], "location": [ 997993, 4 ]},
+    {"id": 532, "shape": [ 1 ], "location": [ 997997, 4 ]},
+    {"id": 535, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 536, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 537, "shape": [ 1 ], "location": [ 998001, 4 ]},
+    {"id": 538, "shape": [ 1 ], "location": [ 998005, 4 ]},
+    {"id": 539, "shape": [ 1 ], "location": [ 998009, 4 ]},
+    {"id": 540, "shape": [ 1 ], "location": [ 998013, 8 ]},
+    {"id": 541, "shape": [ 18, 24, 32, 4 ], "location": [ 998021, 55296 ]},
+    {"id": 542, "shape": [ 576 ], "location": [ 1053317, 2304 ]},
+    {"id": 543, "shape": [ 1, 1, 96, 576 ], "location": [ 0, 0 ]},
+    {"id": 546, "shape": [ 2, 2 ], "location": [ 0, 0 ]},
+    {"id": 547, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 548, "shape": [ 1 ], "location": [ 1055621, 4 ]},
+    {"id": 549, "shape": [ 1 ], "location": [ 1055625, 4 ]},
+    {"id": 550, "shape": [ 1 ], "location": [ 1055629, 4 ]},
+    {"id": 551, "shape": [ 1 ], "location": [ 1055633, 8 ]},
+    {"id": 552, "shape": [ 5, 3, 128, 4 ], "location": [ 1055641, 7680 ]},
+    {"id": 553, "shape": [ 640 ], "location": [ 1063321, 2560 ]},
+    {"id": 554, "shape": [ 3, 3, 1, 576 ], "location": [ 0, 0 ]},
+    {"id": 557, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 558, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 559, "shape": [ 1 ], "location": [ 1065881, 4 ]},
+    {"id": 560, "shape": [ 1 ], "location": [ 1065885, 4 ]},
+    {"id": 561, "shape": [ 1 ], "location": [ 1065889, 4 ]},
+    {"id": 562, "shape": [ 1 ], "location": [ 1065893, 8 ]},
+    {"id": 563, "shape": [ 4, 144, 32, 4 ], "location": [ 1065901, 73728 ]},
+    {"id": 564, "shape": [ 128 ], "location": [ 1139629, 512 ]},
+    {"id": 565, "shape": [ 1, 1, 576, 128 ], "location": [ 0, 0 ]},
+    {"id": 568, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 569, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 570, "shape": [ 1 ], "location": [ 1140141, 4 ]},
+    {"id": 571, "shape": [ 1 ], "location": [ 1140145, 4 ]},
+    {"id": 572, "shape": [ 1 ], "location": [ 1140149, 4 ]},
+    {"id": 573, "shape": [ 1 ], "location": [ 1140153, 8 ]},
+    {"id": 574, "shape": [ 24, 32, 32, 4 ], "location": [ 1140161, 98304 ]},
+    {"id": 575, "shape": [ 768 ], "location": [ 1238465, 3072 ]},
+    {"id": 576, "shape": [ 1, 1, 128, 768 ], "location": [ 0, 0 ]},
+    {"id": 579, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 580, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 581, "shape": [ 1 ], "location": [ 1241537, 4 ]},
+    {"id": 582, "shape": [ 1 ], "location": [ 1241541, 4 ]},
+    {"id": 583, "shape": [ 1 ], "location": [ 1241545, 4 ]},
+    {"id": 584, "shape": [ 1 ], "location": [ 1241549, 8 ]},
+    {"id": 585, "shape": [ 6, 3, 128, 4 ], "location": [ 1241557, 9216 ]},
+    {"id": 586, "shape": [ 768 ], "location": [ 1250773, 3072 ]},
+    {"id": 587, "shape": [ 3, 3, 1, 768 ], "location": [ 0, 0 ]},
+    {"id": 590, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 591, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 592, "shape": [ 1 ], "location": [ 1253845, 4 ]},
+    {"id": 593, "shape": [ 1 ], "location": [ 1253849, 4 ]},
+    {"id": 594, "shape": [ 1 ], "location": [ 1253853, 4 ]},
+    {"id": 595, "shape": [ 1 ], "location": [ 1253857, 8 ]},
+    {"id": 596, "shape": [ 4, 192, 32, 4 ], "location": [ 1253865, 98304 ]},
+    {"id": 597, "shape": [ 128 ], "location": [ 1352169, 512 ]},
+    {"id": 598, "shape": [ 1, 1, 768, 128 ], "location": [ 0, 0 ]},
+    {"id": 600, "shape": [ 1 ], "location": [ 1352681, 4 ]},
+    {"id": 601, "shape": [ 1 ], "location": [ 1352685, 4 ]},
+    {"id": 602, "shape": [ 1 ], "location": [ 1352689, 4 ]},
+    {"id": 603, "shape": [ 1 ], "location": [ 1352693, 4 ]},
+    {"id": 604, "shape": [ 1 ], "location": [ 1352697, 4 ]},
+    {"id": 605, "shape": [ 1 ], "location": [ 1352701, 4 ]},
+    {"id": 608, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 609, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 610, "shape": [ 1 ], "location": [ 1352705, 4 ]},
+    {"id": 611, "shape": [ 1 ], "location": [ 1352709, 4 ]},
+    {"id": 612, "shape": [ 1 ], "location": [ 1352713, 4 ]},
+    {"id": 613, "shape": [ 1 ], "location": [ 1352717, 8 ]},
+    {"id": 614, "shape": [ 24, 32, 32, 4 ], "location": [ 1352725, 98304 ]},
+    {"id": 615, "shape": [ 768 ], "location": [ 1451029, 3072 ]},
+    {"id": 616, "shape": [ 1, 1, 128, 768 ], "location": [ 0, 0 ]},
+    {"id": 619, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 620, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 621, "shape": [ 1 ], "location": [ 1454101, 4 ]},
+    {"id": 622, "shape": [ 1 ], "location": [ 1454105, 4 ]},
+    {"id": 623, "shape": [ 1 ], "location": [ 1454109, 4 ]},
+    {"id": 624, "shape": [ 1 ], "location": [ 1454113, 8 ]},
+    {"id": 625, "shape": [ 6, 3, 128, 4 ], "location": [ 1454121, 9216 ]},
+    {"id": 626, "shape": [ 768 ], "location": [ 1463337, 3072 ]},
+    {"id": 627, "shape": [ 3, 3, 1, 768 ], "location": [ 0, 0 ]},
+    {"id": 630, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 631, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 632, "shape": [ 1 ], "location": [ 1466409, 4 ]},
+    {"id": 633, "shape": [ 1 ], "location": [ 1466413, 4 ]},
+    {"id": 634, "shape": [ 1 ], "location": [ 1466417, 4 ]},
+    {"id": 635, "shape": [ 1 ], "location": [ 1466421, 8 ]},
+    {"id": 636, "shape": [ 4, 192, 32, 4 ], "location": [ 1466429, 98304 ]},
+    {"id": 637, "shape": [ 128 ], "location": [ 1564733, 512 ]},
+    {"id": 638, "shape": [ 1, 1, 768, 128 ], "location": [ 0, 0 ]},
+    {"id": 640, "shape": [ 1 ], "location": [ 1565245, 4 ]},
+    {"id": 641, "shape": [ 1 ], "location": [ 1565249, 4 ]},
+    {"id": 642, "shape": [ 1 ], "location": [ 1565253, 4 ]},
+    {"id": 643, "shape": [ 1 ], "location": [ 1565257, 4 ]},
+    {"id": 646, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 647, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 648, "shape": [ 1 ], "location": [ 1565261, 4 ]},
+    {"id": 649, "shape": [ 1 ], "location": [ 1565265, 4 ]},
+    {"id": 650, "shape": [ 1 ], "location": [ 1565269, 4 ]},
+    {"id": 651, "shape": [ 1 ], "location": [ 1565273, 8 ]},
+    {"id": 652, "shape": [ 24, 32, 32, 4 ], "location": [ 1565281, 98304 ]},
+    {"id": 653, "shape": [ 768 ], "location": [ 1663585, 3072 ]},
+    {"id": 654, "shape": [ 1, 1, 128, 768 ], "location": [ 0, 0 ]},
+    {"id": 657, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 658, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 659, "shape": [ 1 ], "location": [ 1666657, 4 ]},
+    {"id": 660, "shape": [ 1 ], "location": [ 1666661, 4 ]},
+    {"id": 661, "shape": [ 1 ], "location": [ 1666665, 4 ]},
+    {"id": 662, "shape": [ 1 ], "location": [ 1666669, 8 ]},
+    {"id": 663, "shape": [ 6, 3, 128, 4 ], "location": [ 1666677, 9216 ]},
+    {"id": 664, "shape": [ 768 ], "location": [ 1675893, 3072 ]},
+    {"id": 665, "shape": [ 3, 3, 1, 768 ], "location": [ 0, 0 ]},
+    {"id": 668, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 669, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 670, "shape": [ 1 ], "location": [ 1678965, 4 ]},
+    {"id": 671, "shape": [ 1 ], "location": [ 1678969, 4 ]},
+    {"id": 672, "shape": [ 1 ], "location": [ 1678973, 4 ]},
+    {"id": 673, "shape": [ 1 ], "location": [ 1678977, 8 ]},
+    {"id": 674, "shape": [ 5, 192, 32, 4 ], "location": [ 1678985, 122880 ]},
+    {"id": 675, "shape": [ 160 ], "location": [ 1801865, 640 ]},
+    {"id": 676, "shape": [ 1, 1, 768, 160 ], "location": [ 0, 0 ]},
+    {"id": 679, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 680, "shape": [ 2, 2 ], "location": [ 0, 0 ]},
+    {"id": 681, "shape": [ 1 ], "location": [ 1802505, 4 ]},
+    {"id": 682, "shape": [ 1 ], "location": [ 1802509, 4 ]},
+    {"id": 683, "shape": [ 1 ], "location": [ 1802513, 4 ]},
+    {"id": 684, "shape": [ 1 ], "location": [ 1802517, 8 ]},
+    {"id": 685, "shape": [ 2, 360, 32, 4 ], "location": [ 1802525, 92160 ]},
+    {"id": 686, "shape": [ 63 ], "location": [ 1894685, 252 ]},
+    {"id": 687, "shape": [ 3, 3, 160, 63 ], "location": [ 0, 0 ]},
+    {"id": 690, "shape": [ 2, 2 ], "location": [ 0, 0 ]},
+    {"id": 691, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 692, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 693, "shape": [ 1 ], "location": [ 1894937, 4 ]},
+    {"id": 694, "shape": [ 1 ], "location": [ 1894941, 4 ]},
+    {"id": 695, "shape": [ 1 ], "location": [ 1894945, 4 ]},
+    {"id": 696, "shape": [ 1 ], "location": [ 1894949, 8 ]},
+    {"id": 697, "shape": [ 6, 16, 32, 4 ], "location": [ 1894957, 12288 ]},
+    {"id": 698, "shape": [ 168 ], "location": [ 1907245, 672 ]},
+    {"id": 699, "shape": [ 73 ], "location": [ 1907917, 292 ]},
+    {"id": 700, "shape": [ 63, 2, 2, 42 ], "location": [ 0, 0 ]},
+    {"id": 702, "shape": [ 1 ], "location": [ 1908209, 4 ]},
+    {"id": 703, "shape": [ 1 ], "location": [ 1908213, 4 ]},
+    {"id": 706, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 707, "shape": [ 2, 2 ], "location": [ 0, 0 ]},
+    {"id": 708, "shape": [ 1 ], "location": [ 1908217, 4 ]},
+    {"id": 709, "shape": [ 1 ], "location": [ 1908221, 4 ]},
+    {"id": 710, "shape": [ 1 ], "location": [ 1908225, 4 ]},
+    {"id": 711, "shape": [ 1 ], "location": [ 1908229, 8 ]},
+    {"id": 712, "shape": [ 1, 96, 32, 4 ], "location": [ 1908237, 12288 ]},
+    {"id": 713, "shape": [ 21 ], "location": [ 1920525, 84 ]},
+    {"id": 714, "shape": [ 3, 3, 42, 21 ], "location": [ 0, 0 ]},
+    {"id": 715, "shape": [ 0, 3, 1, 2 ], "location": [ 0, 0 ]},
+    {"id": 717, "shape": [ 1 ], "location": [ 1920609, 4 ]},
+    {"id": 718, "shape": [ 1 ], "location": [ 1920613, 4 ]},
+    {"id": 719, "shape": [ 1 ], "location": [ 1920617, 4 ]},
+    {"id": 720, "shape": [ 1 ], "location": [ 1920621, 4 ]},
+    {"id": 722, "shape": [ 6, 6 ], "location": [ 0, 0 ]},
+    {"id": 723, "shape": [ 6, 6 ], "location": [ 0, 0 ]},
+    {"id": 724, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 725, "shape": [ 1 ], "location": [ 1920625, 4 ]},
+    {"id": 726, "shape": [ 1 ], "location": [ 1920629, 4 ]},
+    {"id": 730, "shape": [ 1, 1 ], "location": [ 0, 0 ]},
+    {"id": 731, "shape": [ 0, 0 ], "location": [ 0, 0 ]},
+    {"id": 732, "shape": [ 1 ], "location": [ 1920633, 4 ]},
+    {"id": 733, "shape": [ 1 ], "location": [ 1920637, 4 ]},
+    {"id": 734, "shape": [ 1 ], "location": [ 1920641, 4 ]},
+    {"id": 735, "shape": [ 1 ], "location": [ 1920645, 8 ]},
+    {"id": 736, "shape": [ 12, 40, 32, 4 ], "location": [ 1920653, 61440 ]},
+    {"id": 737, "shape": [ 378 ], "location": [ 1982093, 1512 ]},
+    {"id": 738, "shape": [ 1, 1, 160, 378 ], "location": [ 0, 0 ]},
+    {"id": 739, "shape": [ 3 ], "location": [ 1983605, 12 ]},
+    {"id": 741, "shape": [ 1 ], "location": [ 1983617, 4 ]},
+    {"id": 742, "shape": [ 1 ], "location": [ 1983621, 4 ]},
+    {"id": 743, "shape": [ 1 ], "location": [ 1983625, 4 ]},
+    {"id": 744, "shape": [ 1 ], "location": [ 1983629, 4 ]}
+  ],
+  "node": [
+    {
+      "comment": [
+        "TensorNode #205 [mono]_int8 shape: (8, 1, 96, 96) order: NCHW quantized: True format: TensorLayout.PLAIN None",
+        "TensorNode #1 [prevNormalizedXYDistance] shape: (8, 63) order: None quantized: False format: TensorLayout.PLAIN None"
+      ],
+      "id": 1,
+      "name": "",
+      "op": "OP_INPUT",
+      "padding": "NN_PAD_NA",
+      "input": [],
+      "output": [
+        {"shape": [ 8, 1, 96, 96 ], "elem_size": 1},
+        {"shape": [ 8, 63 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ReshapeNode #91 (quantized: True)",
+          "in:    TensorNode #205 [mono]_int8 shape: (8, 1, 96, 96) order: NCHW quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #206 [mono]_NHWC_int8 shape: (8, 96, 96, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 5,
+      "name": "[mono]_reshape",
+      "op": "OP_QuantizedReshape",
+      "padding": "NN_PAD_NA",
+      "input": [[ 1, 0 ], [ 2, 0 ], [ 3, 0 ], [ 4, 0 ], [ 6, 0 ], [ 7, 0 ]],
+      "output": [
+        {"shape": [ 8, 96, 96, 1 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #5 (quantized: True)",
+          "in:    TensorNode #206 [mono]_NHWC_int8 shape: (8, 96, 96, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #10 375_int8 shape: (32, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #91 376_int8 shape: (32,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #119 245_int8 shape: (8, 48, 48, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 8,
+      "name": "Int8ConvRelu (#3)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 5, 0 ], [ 16, 0 ], [ 17, 0 ], [ 18, 0 ], [ 10, 0 ], [ 11, 0 ], [ 12, 0 ], [ 13, 0 ], [ 14, 0 ], [ 15, 0 ]],
+      "output": [
+        {"shape": [ 8, 48, 48, 32 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #6 (quantized: True)",
+          "in:    TensorNode #119 245_int8 shape: (8, 48, 48, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #46 0.model_base.stages_image.xif0_0.dw.conv.weight_int8 shape: (32, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #99 b_zero_generated_245_int8 shape: (32,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #120 246_int8 shape: (8, 48, 48, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 19,
+      "name": "Int8Conv (#4)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 8, 0 ], [ 27, 0 ], [ 28, 0 ], [ 29, 0 ], [ 21, 0 ], [ 22, 0 ], [ 23, 0 ], [ 24, 0 ], [ 25, 0 ], [ 26, 0 ]],
+      "output": [
+        {"shape": [ 8, 48, 48, 32 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #7 (quantized: True)",
+          "in:    TensorNode #120 246_int8 shape: (8, 48, 48, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #16 378_int8 shape: (32, 1, 1, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #57 379_int8 shape: (32,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #121 377_int8 shape: (8, 48, 48, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 30,
+      "name": "Int8Conv (#5)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 19, 0 ], [ 38, 0 ], [ 39, 0 ], [ 40, 0 ], [ 32, 0 ], [ 33, 0 ], [ 34, 0 ], [ 35, 0 ], [ 36, 0 ], [ 37, 0 ]],
+      "output": [
+        {"shape": [ 8, 48, 48, 32 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "AddNode #8 (quantized: True)",
+          "in:    TensorNode #119 245_int8 shape: (8, 48, 48, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #121 377_int8 shape: (8, 48, 48, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #122 249_int8 shape: (8, 48, 48, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 41,
+      "name": "Int8Add (#6)",
+      "op": "OP_Caffe2_QuantizedAdd_8p8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 8, 0 ], [ 30, 0 ], [ 42, 0 ], [ 43, 0 ], [ 44, 0 ], [ 45, 0 ], [ 46, 0 ], [ 47, 0 ]],
+      "output": [
+        {"shape": [ 8, 48, 48, 32 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #9 (quantized: True)",
+          "in:    TensorNode #122 249_int8 shape: (8, 48, 48, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #51 381_int8 shape: (96, 1, 1, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #55 382_int8 shape: (96,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #123 252_int8 shape: (8, 48, 48, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 48,
+      "name": "Int8ConvRelu (#7)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 41, 0 ], [ 56, 0 ], [ 57, 0 ], [ 58, 0 ], [ 50, 0 ], [ 51, 0 ], [ 52, 0 ], [ 53, 0 ], [ 54, 0 ], [ 55, 0 ]],
+      "output": [
+        {"shape": [ 8, 48, 48, 96 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #10 (quantized: True)",
+          "in:    TensorNode #123 252_int8 shape: (8, 48, 48, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #27 0.model_base.stages_image.xif1_0.dw.conv.weight_int8 shape: (96, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #100 b_zero_generated_252_int8 shape: (96,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #124 253_int8 shape: (8, 24, 24, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 59,
+      "name": "Int8Conv (#8)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 48, 0 ], [ 67, 0 ], [ 68, 0 ], [ 69, 0 ], [ 61, 0 ], [ 62, 0 ], [ 63, 0 ], [ 64, 0 ], [ 65, 0 ], [ 66, 0 ]],
+      "output": [
+        {"shape": [ 8, 24, 24, 96 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #11 (quantized: True)",
+          "in:    TensorNode #124 253_int8 shape: (8, 24, 24, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #68 384_int8 shape: (32, 1, 1, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #35 385_int8 shape: (32,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #125 383_int8 shape: (8, 24, 24, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 70,
+      "name": "Int8Conv (#9)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 59, 0 ], [ 78, 0 ], [ 79, 0 ], [ 80, 0 ], [ 72, 0 ], [ 73, 0 ], [ 74, 0 ], [ 75, 0 ], [ 76, 0 ], [ 77, 0 ]],
+      "output": [
+        {"shape": [ 8, 24, 24, 32 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #12 (quantized: True)",
+          "in:    TensorNode #125 383_int8 shape: (8, 24, 24, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #84 387_int8 shape: (192, 1, 1, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #88 388_int8 shape: (192,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #126 258_int8 shape: (8, 24, 24, 192) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 81,
+      "name": "Int8ConvRelu (#10)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 70, 0 ], [ 89, 0 ], [ 90, 0 ], [ 91, 0 ], [ 83, 0 ], [ 84, 0 ], [ 85, 0 ], [ 86, 0 ], [ 87, 0 ], [ 88, 0 ]],
+      "output": [
+        {"shape": [ 8, 24, 24, 192 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #13 (quantized: True)",
+          "in:    TensorNode #126 258_int8 shape: (8, 24, 24, 192) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #5 0.model_base.stages_image.xif1_1.dw.conv.weight_int8 shape: (192, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #101 b_zero_generated_258_int8 shape: (192,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #127 259_int8 shape: (8, 24, 24, 192) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 92,
+      "name": "Int8Conv (#11)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 81, 0 ], [ 100, 0 ], [ 101, 0 ], [ 102, 0 ], [ 94, 0 ], [ 95, 0 ], [ 96, 0 ], [ 97, 0 ], [ 98, 0 ], [ 99, 0 ]],
+      "output": [
+        {"shape": [ 8, 24, 24, 192 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #14 (quantized: True)",
+          "in:    TensorNode #127 259_int8 shape: (8, 24, 24, 192) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #32 390_int8 shape: (32, 1, 1, 192) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #94 391_int8 shape: (32,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #128 389_int8 shape: (8, 24, 24, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 103,
+      "name": "Int8Conv (#12)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 92, 0 ], [ 111, 0 ], [ 112, 0 ], [ 113, 0 ], [ 105, 0 ], [ 106, 0 ], [ 107, 0 ], [ 108, 0 ], [ 109, 0 ], [ 110, 0 ]],
+      "output": [
+        {"shape": [ 8, 24, 24, 32 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "AddNode #15 (quantized: True)",
+          "in:    TensorNode #125 383_int8 shape: (8, 24, 24, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #128 389_int8 shape: (8, 24, 24, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #129 262_int8 shape: (8, 24, 24, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 114,
+      "name": "Int8Add (#13)",
+      "op": "OP_Caffe2_QuantizedAdd_8p8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 70, 0 ], [ 103, 0 ], [ 115, 0 ], [ 116, 0 ], [ 117, 0 ], [ 118, 0 ], [ 119, 0 ], [ 120, 0 ]],
+      "output": [
+        {"shape": [ 8, 24, 24, 32 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #16 (quantized: True)",
+          "in:    TensorNode #129 262_int8 shape: (8, 24, 24, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #21 393_int8 shape: (192, 1, 1, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #37 394_int8 shape: (192,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #130 265_int8 shape: (8, 24, 24, 192) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 121,
+      "name": "Int8ConvRelu (#14)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 114, 0 ], [ 129, 0 ], [ 130, 0 ], [ 131, 0 ], [ 123, 0 ], [ 124, 0 ], [ 125, 0 ], [ 126, 0 ], [ 127, 0 ], [ 128, 0 ]],
+      "output": [
+        {"shape": [ 8, 24, 24, 192 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #17 (quantized: True)",
+          "in:    TensorNode #130 265_int8 shape: (8, 24, 24, 192) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #2 0.model_base.stages_image.xif2_0.dw.conv.weight_int8 shape: (192, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #102 b_zero_generated_265_int8 shape: (192,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #131 266_int8 shape: (8, 12, 12, 192) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 132,
+      "name": "Int8Conv (#15)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 121, 0 ], [ 140, 0 ], [ 141, 0 ], [ 142, 0 ], [ 134, 0 ], [ 135, 0 ], [ 136, 0 ], [ 137, 0 ], [ 138, 0 ], [ 139, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 192 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #18 (quantized: True)",
+          "in:    TensorNode #131 266_int8 shape: (8, 12, 12, 192) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #13 396_int8 shape: (64, 1, 1, 192) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #6 397_int8 shape: (64,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #132 395_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 143,
+      "name": "Int8Conv (#16)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 132, 0 ], [ 151, 0 ], [ 152, 0 ], [ 153, 0 ], [ 145, 0 ], [ 146, 0 ], [ 147, 0 ], [ 148, 0 ], [ 149, 0 ], [ 150, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 64 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #19 (quantized: True)",
+          "in:    TensorNode #132 395_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #86 399_int8 shape: (384, 1, 1, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #89 400_int8 shape: (384,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #133 271_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 154,
+      "name": "Int8ConvRelu (#17)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 143, 0 ], [ 162, 0 ], [ 163, 0 ], [ 164, 0 ], [ 156, 0 ], [ 157, 0 ], [ 158, 0 ], [ 159, 0 ], [ 160, 0 ], [ 161, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 384 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #20 (quantized: True)",
+          "in:    TensorNode #133 271_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #28 0.model_base.stages_image.xif2_1.dw.conv.weight_int8 shape: (384, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #103 b_zero_generated_271_int8 shape: (384,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #134 272_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 165,
+      "name": "Int8Conv (#18)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 154, 0 ], [ 173, 0 ], [ 174, 0 ], [ 175, 0 ], [ 167, 0 ], [ 168, 0 ], [ 169, 0 ], [ 170, 0 ], [ 171, 0 ], [ 172, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 384 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #21 (quantized: True)",
+          "in:    TensorNode #134 272_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #78 402_int8 shape: (64, 1, 1, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #24 403_int8 shape: (64,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #135 401_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 176,
+      "name": "Int8Conv (#19)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 165, 0 ], [ 184, 0 ], [ 185, 0 ], [ 186, 0 ], [ 178, 0 ], [ 179, 0 ], [ 180, 0 ], [ 181, 0 ], [ 182, 0 ], [ 183, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 64 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "AddNode #22 (quantized: True)",
+          "in:    TensorNode #132 395_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #135 401_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #136 275_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 187,
+      "name": "Int8Add (#20)",
+      "op": "OP_Caffe2_QuantizedAdd_8p8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 143, 0 ], [ 176, 0 ], [ 188, 0 ], [ 189, 0 ], [ 190, 0 ], [ 191, 0 ], [ 192, 0 ], [ 193, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 64 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #23 (quantized: True)",
+          "in:    TensorNode #136 275_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #25 405_int8 shape: (384, 1, 1, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #22 406_int8 shape: (384,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #137 278_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 194,
+      "name": "Int8ConvRelu (#21)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 187, 0 ], [ 202, 0 ], [ 203, 0 ], [ 204, 0 ], [ 196, 0 ], [ 197, 0 ], [ 198, 0 ], [ 199, 0 ], [ 200, 0 ], [ 201, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 384 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #24 (quantized: True)",
+          "in:    TensorNode #137 278_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #11 0.model_base.stages_image.xif2_2.dw.conv.weight_int8 shape: (384, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #104 b_zero_generated_278_int8 shape: (384,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #138 279_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 205,
+      "name": "Int8Conv (#22)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 194, 0 ], [ 213, 0 ], [ 214, 0 ], [ 215, 0 ], [ 207, 0 ], [ 208, 0 ], [ 209, 0 ], [ 210, 0 ], [ 211, 0 ], [ 212, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 384 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #25 (quantized: True)",
+          "in:    TensorNode #138 279_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #29 408_int8 shape: (64, 1, 1, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #74 409_int8 shape: (64,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #139 407_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 216,
+      "name": "Int8Conv (#23)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 205, 0 ], [ 224, 0 ], [ 225, 0 ], [ 226, 0 ], [ 218, 0 ], [ 219, 0 ], [ 220, 0 ], [ 221, 0 ], [ 222, 0 ], [ 223, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 64 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "AddNode #26 (quantized: True)",
+          "in:    TensorNode #136 275_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #139 407_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #140 282_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 227,
+      "name": "Int8Add (#24)",
+      "op": "OP_Caffe2_QuantizedAdd_8p8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 187, 0 ], [ 216, 0 ], [ 192, 0 ], [ 193, 0 ], [ 228, 0 ], [ 229, 0 ], [ 230, 0 ], [ 231, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 64 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "QuantizeNode #4 (quantized: True)",
+          "in:    TensorNode #1 [prevNormalizedXYDistance] shape: (8, 63) order: None quantized: False format: TensorLayout.PLAIN None",
+          "out:    TensorNode #118 [prevNormalizedXYDistance]_int8 shape: (8, 63) order: None quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 234,
+      "name": "Int8Quantize (#2)",
+      "op": "OP_Caffe2_Quantize",
+      "padding": "NN_PAD_NA",
+      "input": [[ 1, 1 ], [ 232, 0 ], [ 233, 0 ]],
+      "output": [
+        {"shape": [ 8, 63 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "Reshape for FC input: (8, 63) to (-1, 1, 1, 63)"
+        ]
+      ],
+      "id": 246,
+      "name": "Int8FC (#25)",
+      "op": "OP_QuantizedReshape",
+      "padding": "NN_PAD_NA",
+      "input": [[ 234, 0 ], [ 245, 0 ], [ 247, 0 ], [ 248, 0 ]],
+      "output": [
+        {"shape": [ 8, 1, 1, 63 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "FCNode #27 (quantized: True)",
+          "in:    TensorNode #118 [prevNormalizedXYDistance]_int8 shape: (8, 63) order: None quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #56 0.model_base.stages_landmark.xif5_0.0.weight_int8 shape: (4608, 63) order: None quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #71 0.model_base.stages_landmark.xif5_0.0.bias_int8 shape: (4608,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #141 283_int8 shape: (8, 4608) order: None quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 235,
+      "name": "Int8FC (#25)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 246, 0 ], [ 242, 0 ], [ 243, 0 ], [ 244, 0 ], [ 240, 0 ], [ 241, 0 ], [ 236, 0 ], [ 237, 0 ], [ 238, 0 ], [ 239, 0 ]],
+      "output": [
+        {"shape": [ 8, 1, 1, 4608 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "Reshape for FC: (8, 1, 1, 4608) to (-1, 4608)"
+        ]
+      ],
+      "id": 250,
+      "name": "Int8FC (#25)",
+      "op": "OP_QuantizedReshape",
+      "padding": "NN_PAD_NA",
+      "input": [[ 235, 0 ], [ 249, 0 ], [ 251, 0 ], [ 252, 0 ]],
+      "output": [
+        {"shape": [ 8, 4608 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DequantizeNode #28 (quantized: True)",
+          "in:    TensorNode #141 283_int8 shape: (8, 4608) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #142 283 shape: (8, 4608) order: None quantized: False format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 255,
+      "name": "Int8Dequantize (#26)",
+      "op": "OP_Caffe2_Dequantize",
+      "padding": "NN_PAD_NA",
+      "input": [[ 250, 0 ], [ 253, 0 ], [ 254, 0 ]],
+      "output": [
+        {"shape": [ 8, 4608 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "QuantizeNode #94 (quantized: True)",
+          "in:    TensorNode #142 283 shape: (8, 4608) order: None quantized: False format: TensorLayout.PLAIN None",
+          "out:    TensorNode #209 283_int8 shape: (8, 4608) order: None quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 258,
+      "name": "283_Quantize",
+      "op": "OP_Caffe2_Quantize",
+      "padding": "NN_PAD_NA",
+      "input": [[ 255, 0 ], [ 256, 0 ], [ 257, 0 ]],
+      "output": [
+        {"shape": [ 8, 4608 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ReshapeNode #29 (quantized: True)",
+          "in:    TensorNode #209 283_int8 shape: (8, 4608) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #210 285_int8 shape: (8, 32, 12, 12) order: NCHW quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 260,
+      "name": "Reshape (#27)",
+      "op": "OP_QuantizedReshape",
+      "padding": "NN_PAD_NA",
+      "input": [[ 258, 0 ], [ 259, 0 ], [ 261, 0 ], [ 262, 0 ]],
+      "output": [
+        {"shape": [ 8, 32, 12, 12 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "TransposeNode #86 (quantized: True)",
+          "in:    TensorNode #210 285_int8 shape: (8, 32, 12, 12) order: NCHW quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #208 285_NHWC_int8 shape: (8, 12, 12, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 264,
+      "name": "285_Transpose",
+      "op": "OP_Caffe2_QuantizedTranspose_8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 260, 0 ], [ 263, 0 ], [ 265, 0 ], [ 266, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 32 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ReluNode #32 (quantized: True)",
+          "in:    TensorNode #208 285_NHWC_int8 shape: (8, 12, 12, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #146 286_int8 shape: (8, 12, 12, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 267,
+      "name": "Int8Relu (#30)",
+      "op": "OP_QuantizedRelu_8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 264, 0 ], [ 268, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 32 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConcatNode #33 (quantized: True)",
+          "in:    TensorNode #140 282_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #146 286_int8 shape: (8, 12, 12, 32) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #147 287_int8 shape: (8, 12, 12, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 272,
+      "name": "Int8Concat (#31)",
+      "op": "OP_Caffe2_QuantizedConcat_8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 269, 0 ], [ 227, 0 ], [ 267, 0 ], [ 270, 0 ], [ 270, 0 ], [ 271, 0 ], [ 271, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 96 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #34 (quantized: True)",
+          "in:    TensorNode #147 287_int8 shape: (8, 12, 12, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #77 411_int8 shape: (384, 1, 1, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #39 412_int8 shape: (384,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #148 290_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 273,
+      "name": "Int8ConvRelu (#32)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 272, 0 ], [ 281, 0 ], [ 282, 0 ], [ 283, 0 ], [ 275, 0 ], [ 276, 0 ], [ 277, 0 ], [ 278, 0 ], [ 279, 0 ], [ 280, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 384 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #35 (quantized: True)",
+          "in:    TensorNode #148 290_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #42 0.model_base.stages_fused.xif3_0.dw.conv.weight_int8 shape: (384, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #105 b_zero_generated_290_int8 shape: (384,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #149 291_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 284,
+      "name": "Int8Conv (#33)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 273, 0 ], [ 292, 0 ], [ 293, 0 ], [ 294, 0 ], [ 286, 0 ], [ 287, 0 ], [ 288, 0 ], [ 289, 0 ], [ 290, 0 ], [ 291, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 384 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #36 (quantized: True)",
+          "in:    TensorNode #149 291_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #58 414_int8 shape: (64, 1, 1, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #43 415_int8 shape: (64,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #150 413_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 295,
+      "name": "Int8Conv (#34)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 284, 0 ], [ 303, 0 ], [ 304, 0 ], [ 305, 0 ], [ 297, 0 ], [ 298, 0 ], [ 299, 0 ], [ 300, 0 ], [ 301, 0 ], [ 302, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 64 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #37 (quantized: True)",
+          "in:    TensorNode #150 413_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #12 417_int8 shape: (384, 1, 1, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #33 418_int8 shape: (384,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #151 296_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 306,
+      "name": "Int8ConvRelu (#35)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 295, 0 ], [ 314, 0 ], [ 315, 0 ], [ 316, 0 ], [ 308, 0 ], [ 309, 0 ], [ 310, 0 ], [ 311, 0 ], [ 312, 0 ], [ 313, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 384 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #38 (quantized: True)",
+          "in:    TensorNode #151 296_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #34 0.model_base.stages_fused.xif3_1.dw.conv.weight_int8 shape: (384, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #106 b_zero_generated_296_int8 shape: (384,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #152 297_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 317,
+      "name": "Int8Conv (#36)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 306, 0 ], [ 325, 0 ], [ 326, 0 ], [ 327, 0 ], [ 319, 0 ], [ 320, 0 ], [ 321, 0 ], [ 322, 0 ], [ 323, 0 ], [ 324, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 384 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #39 (quantized: True)",
+          "in:    TensorNode #152 297_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #73 420_int8 shape: (64, 1, 1, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #90 421_int8 shape: (64,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #153 419_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 328,
+      "name": "Int8Conv (#37)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 317, 0 ], [ 336, 0 ], [ 337, 0 ], [ 338, 0 ], [ 330, 0 ], [ 331, 0 ], [ 332, 0 ], [ 333, 0 ], [ 334, 0 ], [ 335, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 64 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "AddNode #40 (quantized: True)",
+          "in:    TensorNode #150 413_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #153 419_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #154 300_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 339,
+      "name": "Int8Add (#38)",
+      "op": "OP_Caffe2_QuantizedAdd_8p8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 295, 0 ], [ 328, 0 ], [ 340, 0 ], [ 341, 0 ], [ 342, 0 ], [ 343, 0 ], [ 344, 0 ], [ 345, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 64 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #41 (quantized: True)",
+          "in:    TensorNode #154 300_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #96 423_int8 shape: (384, 1, 1, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #82 424_int8 shape: (384,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #155 303_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 346,
+      "name": "Int8ConvRelu (#39)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 339, 0 ], [ 354, 0 ], [ 355, 0 ], [ 356, 0 ], [ 348, 0 ], [ 349, 0 ], [ 350, 0 ], [ 351, 0 ], [ 352, 0 ], [ 353, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 384 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #42 (quantized: True)",
+          "in:    TensorNode #155 303_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #45 0.model_base.stages_fused.xif3_2.dw.conv.weight_int8 shape: (384, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #107 b_zero_generated_303_int8 shape: (384,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #156 304_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 357,
+      "name": "Int8Conv (#40)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 346, 0 ], [ 365, 0 ], [ 366, 0 ], [ 367, 0 ], [ 359, 0 ], [ 360, 0 ], [ 361, 0 ], [ 362, 0 ], [ 363, 0 ], [ 364, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 384 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #43 (quantized: True)",
+          "in:    TensorNode #156 304_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #19 426_int8 shape: (64, 1, 1, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #9 427_int8 shape: (64,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #157 425_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 368,
+      "name": "Int8Conv (#41)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 357, 0 ], [ 376, 0 ], [ 377, 0 ], [ 378, 0 ], [ 370, 0 ], [ 371, 0 ], [ 372, 0 ], [ 373, 0 ], [ 374, 0 ], [ 375, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 64 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "AddNode #44 (quantized: True)",
+          "in:    TensorNode #154 300_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #157 425_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #158 307_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 379,
+      "name": "Int8Add (#42)",
+      "op": "OP_Caffe2_QuantizedAdd_8p8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 339, 0 ], [ 368, 0 ], [ 344, 0 ], [ 345, 0 ], [ 380, 0 ], [ 381, 0 ], [ 382, 0 ], [ 383, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 64 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #45 (quantized: True)",
+          "in:    TensorNode #158 307_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #44 429_int8 shape: (384, 1, 1, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #66 430_int8 shape: (384,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #159 310_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 384,
+      "name": "Int8ConvRelu (#43)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 379, 0 ], [ 392, 0 ], [ 393, 0 ], [ 394, 0 ], [ 386, 0 ], [ 387, 0 ], [ 388, 0 ], [ 389, 0 ], [ 390, 0 ], [ 391, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 384 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #46 (quantized: True)",
+          "in:    TensorNode #159 310_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #47 0.model_base.stages_fused.xif3_3.dw.conv.weight_int8 shape: (384, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #108 b_zero_generated_310_int8 shape: (384,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #160 311_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 395,
+      "name": "Int8Conv (#44)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 384, 0 ], [ 403, 0 ], [ 404, 0 ], [ 405, 0 ], [ 397, 0 ], [ 398, 0 ], [ 399, 0 ], [ 400, 0 ], [ 401, 0 ], [ 402, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 384 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #47 (quantized: True)",
+          "in:    TensorNode #160 311_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #8 432_int8 shape: (64, 1, 1, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #30 433_int8 shape: (64,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #161 431_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 406,
+      "name": "Int8Conv (#45)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 395, 0 ], [ 414, 0 ], [ 415, 0 ], [ 416, 0 ], [ 408, 0 ], [ 409, 0 ], [ 410, 0 ], [ 411, 0 ], [ 412, 0 ], [ 413, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 64 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "AddNode #48 (quantized: True)",
+          "in:    TensorNode #158 307_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #161 431_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #162 314_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 417,
+      "name": "Int8Add (#46)",
+      "op": "OP_Caffe2_QuantizedAdd_8p8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 379, 0 ], [ 406, 0 ], [ 382, 0 ], [ 383, 0 ], [ 418, 0 ], [ 419, 0 ], [ 420, 0 ], [ 421, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 64 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #49 (quantized: True)",
+          "in:    TensorNode #162 314_int8 shape: (8, 12, 12, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #69 435_int8 shape: (384, 1, 1, 64) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #4 436_int8 shape: (384,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #163 317_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 422,
+      "name": "Int8ConvRelu (#47)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 417, 0 ], [ 430, 0 ], [ 431, 0 ], [ 432, 0 ], [ 424, 0 ], [ 425, 0 ], [ 426, 0 ], [ 427, 0 ], [ 428, 0 ], [ 429, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 384 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #50 (quantized: True)",
+          "in:    TensorNode #163 317_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #14 0.model_base.stages_fused.xif3_4.dw.conv.weight_int8 shape: (384, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #109 b_zero_generated_317_int8 shape: (384,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #164 318_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 433,
+      "name": "Int8Conv (#48)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 422, 0 ], [ 441, 0 ], [ 442, 0 ], [ 443, 0 ], [ 435, 0 ], [ 436, 0 ], [ 437, 0 ], [ 438, 0 ], [ 439, 0 ], [ 440, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 384 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #51 (quantized: True)",
+          "in:    TensorNode #164 318_int8 shape: (8, 12, 12, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #18 438_int8 shape: (96, 1, 1, 384) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #81 439_int8 shape: (96,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #165 437_int8 shape: (8, 12, 12, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 444,
+      "name": "Int8Conv (#49)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 433, 0 ], [ 452, 0 ], [ 453, 0 ], [ 454, 0 ], [ 446, 0 ], [ 447, 0 ], [ 448, 0 ], [ 449, 0 ], [ 450, 0 ], [ 451, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 96 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #52 (quantized: True)",
+          "in:    TensorNode #165 437_int8 shape: (8, 12, 12, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #97 441_int8 shape: (480, 1, 1, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #23 442_int8 shape: (480,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #166 323_int8 shape: (8, 12, 12, 480) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 455,
+      "name": "Int8ConvRelu (#50)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 444, 0 ], [ 463, 0 ], [ 464, 0 ], [ 465, 0 ], [ 457, 0 ], [ 458, 0 ], [ 459, 0 ], [ 460, 0 ], [ 461, 0 ], [ 462, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 480 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #53 (quantized: True)",
+          "in:    TensorNode #166 323_int8 shape: (8, 12, 12, 480) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #67 0.model_base.stages_fused.xif3_5.dw.conv.weight_int8 shape: (480, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #110 b_zero_generated_323_int8 shape: (480,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #167 324_int8 shape: (8, 12, 12, 480) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 466,
+      "name": "Int8Conv (#51)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 455, 0 ], [ 474, 0 ], [ 475, 0 ], [ 476, 0 ], [ 468, 0 ], [ 469, 0 ], [ 470, 0 ], [ 471, 0 ], [ 472, 0 ], [ 473, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 480 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #54 (quantized: True)",
+          "in:    TensorNode #167 324_int8 shape: (8, 12, 12, 480) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #64 444_int8 shape: (96, 1, 1, 480) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #53 445_int8 shape: (96,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #168 443_int8 shape: (8, 12, 12, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 477,
+      "name": "Int8Conv (#52)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 466, 0 ], [ 485, 0 ], [ 486, 0 ], [ 487, 0 ], [ 479, 0 ], [ 480, 0 ], [ 481, 0 ], [ 482, 0 ], [ 483, 0 ], [ 484, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 96 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "AddNode #55 (quantized: True)",
+          "in:    TensorNode #165 437_int8 shape: (8, 12, 12, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #168 443_int8 shape: (8, 12, 12, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #169 327_int8 shape: (8, 12, 12, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 488,
+      "name": "Int8Add (#53)",
+      "op": "OP_Caffe2_QuantizedAdd_8p8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 444, 0 ], [ 477, 0 ], [ 489, 0 ], [ 490, 0 ], [ 491, 0 ], [ 492, 0 ], [ 493, 0 ], [ 494, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 96 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #56 (quantized: True)",
+          "in:    TensorNode #169 327_int8 shape: (8, 12, 12, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #40 447_int8 shape: (480, 1, 1, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #41 448_int8 shape: (480,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #170 330_int8 shape: (8, 12, 12, 480) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 495,
+      "name": "Int8ConvRelu (#54)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 488, 0 ], [ 503, 0 ], [ 504, 0 ], [ 505, 0 ], [ 497, 0 ], [ 498, 0 ], [ 499, 0 ], [ 500, 0 ], [ 501, 0 ], [ 502, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 480 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #57 (quantized: True)",
+          "in:    TensorNode #170 330_int8 shape: (8, 12, 12, 480) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #79 0.model_base.stages_fused.xif3_6.dw.conv.weight_int8 shape: (480, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #111 b_zero_generated_330_int8 shape: (480,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #171 331_int8 shape: (8, 12, 12, 480) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 506,
+      "name": "Int8Conv (#55)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 495, 0 ], [ 514, 0 ], [ 515, 0 ], [ 516, 0 ], [ 508, 0 ], [ 509, 0 ], [ 510, 0 ], [ 511, 0 ], [ 512, 0 ], [ 513, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 480 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #58 (quantized: True)",
+          "in:    TensorNode #171 331_int8 shape: (8, 12, 12, 480) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #20 450_int8 shape: (96, 1, 1, 480) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #49 451_int8 shape: (96,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #172 449_int8 shape: (8, 12, 12, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 517,
+      "name": "Int8Conv (#56)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 506, 0 ], [ 525, 0 ], [ 526, 0 ], [ 527, 0 ], [ 519, 0 ], [ 520, 0 ], [ 521, 0 ], [ 522, 0 ], [ 523, 0 ], [ 524, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 96 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "AddNode #59 (quantized: True)",
+          "in:    TensorNode #169 327_int8 shape: (8, 12, 12, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #172 449_int8 shape: (8, 12, 12, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #173 334_int8 shape: (8, 12, 12, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 528,
+      "name": "Int8Add (#57)",
+      "op": "OP_Caffe2_QuantizedAdd_8p8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 488, 0 ], [ 517, 0 ], [ 493, 0 ], [ 494, 0 ], [ 529, 0 ], [ 530, 0 ], [ 531, 0 ], [ 532, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 96 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #60 (quantized: True)",
+          "in:    TensorNode #173 334_int8 shape: (8, 12, 12, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #92 453_int8 shape: (576, 1, 1, 96) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #98 454_int8 shape: (576,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #174 337_int8 shape: (8, 12, 12, 576) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 533,
+      "name": "Int8ConvRelu (#58)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 528, 0 ], [ 541, 0 ], [ 542, 0 ], [ 543, 0 ], [ 535, 0 ], [ 536, 0 ], [ 537, 0 ], [ 538, 0 ], [ 539, 0 ], [ 540, 0 ]],
+      "output": [
+        {"shape": [ 8, 12, 12, 576 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #61 (quantized: True)",
+          "in:    TensorNode #174 337_int8 shape: (8, 12, 12, 576) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #60 0.model_base.stages_fused.xif4_0.dw.conv.weight_int8 shape: (576, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #112 b_zero_generated_337_int8 shape: (576,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #175 338_int8 shape: (8, 6, 6, 576) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 544,
+      "name": "Int8Conv (#59)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 533, 0 ], [ 552, 0 ], [ 553, 0 ], [ 554, 0 ], [ 546, 0 ], [ 547, 0 ], [ 548, 0 ], [ 549, 0 ], [ 550, 0 ], [ 551, 0 ]],
+      "output": [
+        {"shape": [ 8, 6, 6, 576 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #62 (quantized: True)",
+          "in:    TensorNode #175 338_int8 shape: (8, 6, 6, 576) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #83 456_int8 shape: (128, 1, 1, 576) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #85 457_int8 shape: (128,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #176 455_int8 shape: (8, 6, 6, 128) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 555,
+      "name": "Int8Conv (#60)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 544, 0 ], [ 563, 0 ], [ 564, 0 ], [ 565, 0 ], [ 557, 0 ], [ 558, 0 ], [ 559, 0 ], [ 560, 0 ], [ 561, 0 ], [ 562, 0 ]],
+      "output": [
+        {"shape": [ 8, 6, 6, 128 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #63 (quantized: True)",
+          "in:    TensorNode #176 455_int8 shape: (8, 6, 6, 128) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #72 459_int8 shape: (768, 1, 1, 128) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #70 460_int8 shape: (768,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #177 343_int8 shape: (8, 6, 6, 768) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 566,
+      "name": "Int8ConvRelu (#61)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 555, 0 ], [ 574, 0 ], [ 575, 0 ], [ 576, 0 ], [ 568, 0 ], [ 569, 0 ], [ 570, 0 ], [ 571, 0 ], [ 572, 0 ], [ 573, 0 ]],
+      "output": [
+        {"shape": [ 8, 6, 6, 768 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #64 (quantized: True)",
+          "in:    TensorNode #177 343_int8 shape: (8, 6, 6, 768) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #87 0.model_base.stages_fused.xif4_1.dw.conv.weight_int8 shape: (768, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #113 b_zero_generated_343_int8 shape: (768,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #178 344_int8 shape: (8, 6, 6, 768) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 577,
+      "name": "Int8Conv (#62)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 566, 0 ], [ 585, 0 ], [ 586, 0 ], [ 587, 0 ], [ 579, 0 ], [ 580, 0 ], [ 581, 0 ], [ 582, 0 ], [ 583, 0 ], [ 584, 0 ]],
+      "output": [
+        {"shape": [ 8, 6, 6, 768 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #65 (quantized: True)",
+          "in:    TensorNode #178 344_int8 shape: (8, 6, 6, 768) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #31 462_int8 shape: (128, 1, 1, 768) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #93 463_int8 shape: (128,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #179 461_int8 shape: (8, 6, 6, 128) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 588,
+      "name": "Int8Conv (#63)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 577, 0 ], [ 596, 0 ], [ 597, 0 ], [ 598, 0 ], [ 590, 0 ], [ 591, 0 ], [ 592, 0 ], [ 593, 0 ], [ 594, 0 ], [ 595, 0 ]],
+      "output": [
+        {"shape": [ 8, 6, 6, 128 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "AddNode #66 (quantized: True)",
+          "in:    TensorNode #176 455_int8 shape: (8, 6, 6, 128) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #179 461_int8 shape: (8, 6, 6, 128) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #180 347_int8 shape: (8, 6, 6, 128) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 599,
+      "name": "Int8Add (#64)",
+      "op": "OP_Caffe2_QuantizedAdd_8p8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 555, 0 ], [ 588, 0 ], [ 600, 0 ], [ 601, 0 ], [ 602, 0 ], [ 603, 0 ], [ 604, 0 ], [ 605, 0 ]],
+      "output": [
+        {"shape": [ 8, 6, 6, 128 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #67 (quantized: True)",
+          "in:    TensorNode #180 347_int8 shape: (8, 6, 6, 128) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #76 465_int8 shape: (768, 1, 1, 128) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #95 466_int8 shape: (768,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #181 350_int8 shape: (8, 6, 6, 768) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 606,
+      "name": "Int8ConvRelu (#65)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 599, 0 ], [ 614, 0 ], [ 615, 0 ], [ 616, 0 ], [ 608, 0 ], [ 609, 0 ], [ 610, 0 ], [ 611, 0 ], [ 612, 0 ], [ 613, 0 ]],
+      "output": [
+        {"shape": [ 8, 6, 6, 768 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #68 (quantized: True)",
+          "in:    TensorNode #181 350_int8 shape: (8, 6, 6, 768) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #3 0.model_base.stages_fused.xif4_2.dw.conv.weight_int8 shape: (768, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #114 b_zero_generated_350_int8 shape: (768,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #182 351_int8 shape: (8, 6, 6, 768) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 617,
+      "name": "Int8Conv (#66)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 606, 0 ], [ 625, 0 ], [ 626, 0 ], [ 627, 0 ], [ 619, 0 ], [ 620, 0 ], [ 621, 0 ], [ 622, 0 ], [ 623, 0 ], [ 624, 0 ]],
+      "output": [
+        {"shape": [ 8, 6, 6, 768 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #69 (quantized: True)",
+          "in:    TensorNode #182 351_int8 shape: (8, 6, 6, 768) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #59 468_int8 shape: (128, 1, 1, 768) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #36 469_int8 shape: (128,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #183 467_int8 shape: (8, 6, 6, 128) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 628,
+      "name": "Int8Conv (#67)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 617, 0 ], [ 636, 0 ], [ 637, 0 ], [ 638, 0 ], [ 630, 0 ], [ 631, 0 ], [ 632, 0 ], [ 633, 0 ], [ 634, 0 ], [ 635, 0 ]],
+      "output": [
+        {"shape": [ 8, 6, 6, 128 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "AddNode #70 (quantized: True)",
+          "in:    TensorNode #180 347_int8 shape: (8, 6, 6, 128) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #183 467_int8 shape: (8, 6, 6, 128) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #184 354_int8 shape: (8, 6, 6, 128) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 639,
+      "name": "Int8Add (#68)",
+      "op": "OP_Caffe2_QuantizedAdd_8p8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 599, 0 ], [ 628, 0 ], [ 604, 0 ], [ 605, 0 ], [ 640, 0 ], [ 641, 0 ], [ 642, 0 ], [ 643, 0 ]],
+      "output": [
+        {"shape": [ 8, 6, 6, 128 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #71 (quantized: True)",
+          "in:    TensorNode #184 354_int8 shape: (8, 6, 6, 128) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #54 471_int8 shape: (768, 1, 1, 128) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #7 472_int8 shape: (768,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #185 357_int8 shape: (8, 6, 6, 768) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 644,
+      "name": "Int8ConvRelu (#69)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 639, 0 ], [ 652, 0 ], [ 653, 0 ], [ 654, 0 ], [ 646, 0 ], [ 647, 0 ], [ 648, 0 ], [ 649, 0 ], [ 650, 0 ], [ 651, 0 ]],
+      "output": [
+        {"shape": [ 8, 6, 6, 768 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DepthwiseConvNode #72 (quantized: True)",
+          "in:    TensorNode #185 357_int8 shape: (8, 6, 6, 768) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #17 0.model_base.stages_fused.xif4_3.dw.conv.weight_int8 shape: (768, 3, 3, 1) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #115 b_zero_generated_357_int8 shape: (768,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #186 358_int8 shape: (8, 6, 6, 768) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 655,
+      "name": "Int8Conv (#70)",
+      "op": "OP_Caffe2_QuantizedDepthwiseConv_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 644, 0 ], [ 663, 0 ], [ 664, 0 ], [ 665, 0 ], [ 657, 0 ], [ 658, 0 ], [ 659, 0 ], [ 660, 0 ], [ 661, 0 ], [ 662, 0 ]],
+      "output": [
+        {"shape": [ 8, 6, 6, 768 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #73 (quantized: True)",
+          "in:    TensorNode #186 358_int8 shape: (8, 6, 6, 768) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #48 474_int8 shape: (160, 1, 1, 768) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #61 475_int8 shape: (160,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #187 473_int8 shape: (8, 6, 6, 160) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 666,
+      "name": "Int8Conv (#71)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 655, 0 ], [ 674, 0 ], [ 675, 0 ], [ 676, 0 ], [ 668, 0 ], [ 669, 0 ], [ 670, 0 ], [ 671, 0 ], [ 672, 0 ], [ 673, 0 ]],
+      "output": [
+        {"shape": [ 8, 6, 6, 160 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #74 (quantized: True)",
+          "in:    TensorNode #187 473_int8 shape: (8, 6, 6, 160) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #50 477_int8 shape: (63, 3, 3, 160) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #80 478_int8 shape: (63,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #188 363_int8 shape: (8, 8, 8, 63) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 677,
+      "name": "Int8ConvRelu (#72)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 666, 0 ], [ 685, 0 ], [ 686, 0 ], [ 687, 0 ], [ 679, 0 ], [ 680, 0 ], [ 681, 0 ], [ 682, 0 ], [ 683, 0 ], [ 684, 0 ]],
+      "output": [
+        {"shape": [ 8, 8, 8, 63 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvTransposeNode #75 (quantized: True)",
+          "in:    TensorNode #188 363_int8 shape: (8, 8, 8, 63) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #62 0.additional_layers.0.3.weight_int8 shape: (63, 2, 2, 42) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #75 0.additional_layers.0.3.bias_int8 shape: (42,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #189 364_int8 shape: (8, 16, 16, 42) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 688,
+      "name": "Int8ConvTranspose (#73)",
+      "op": "OP_Caffe2_QuantizedDeconv_8x8to32",
+      "padding": "NN_PAD_NA",
+      "input": [[ 677, 0 ], [ 697, 0 ], [ 698, 0 ], [ 699, 0 ], [ 700, 0 ], [ 690, 0 ], [ 691, 0 ], [ 692, 0 ], [ 693, 0 ], [ 694, 0 ]],
+      "output": [
+        {"shape": [ 8, 16, 16, 42 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "Requantize for deconv output"
+        ]
+      ],
+      "id": 701,
+      "name": "Int8ConvTranspose (#73)",
+      "op": "OP_Caffe2_Requantize_32to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 688, 0 ], [ 695, 0 ], [ 696, 0 ], [ 702, 0 ], [ 703, 0 ]],
+      "output": [
+        {"shape": [ 8, 16, 16, 42 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #76 (quantized: True)",
+          "in:    TensorNode #189 364_int8 shape: (8, 16, 16, 42) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #63 480_int8 shape: (21, 3, 3, 42) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #65 481_int8 shape: (21,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #190 joint location heat maps_int8 shape: (8, 18, 18, 21) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 704,
+      "name": "Int8ConvRelu (#74)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 701, 0 ], [ 712, 0 ], [ 713, 0 ], [ 714, 0 ], [ 706, 0 ], [ 707, 0 ], [ 708, 0 ], [ 709, 0 ], [ 710, 0 ], [ 711, 0 ]],
+      "output": [
+        {"shape": [ 8, 18, 18, 21 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "TransposeNode #88 (quantized: True)",
+          "in:    TensorNode #190 joint location heat maps_int8 shape: (8, 18, 18, 21) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #200 joint location heat maps_int8_NCHW shape: (8, 21, 18, 18) order: NCHW quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 716,
+      "name": "joint location heat maps_int8_NHWC2NCHW",
+      "op": "OP_Caffe2_QuantizedTranspose_8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 704, 0 ], [ 715, 0 ], [ 717, 0 ], [ 718, 0 ]],
+      "output": [
+        {"shape": [ 8, 21, 18, 18 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DequantizeNode #82 (quantized: True)",
+          "in:    TensorNode #200 joint location heat maps_int8_NCHW shape: (8, 21, 18, 18) order: NCHW quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #201 joint location heat maps shape: (8, 21, 18, 18) order: NCHW quantized: False format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 721,
+      "name": "Int8Dequantize (#80)",
+      "op": "OP_Caffe2_Dequantize",
+      "padding": "NN_PAD_NA",
+      "input": [[ 716, 0 ], [ 719, 0 ], [ 720, 0 ]],
+      "output": [
+        {"shape": [ 8, 21, 18, 18 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "AveragePoolNode #77 (quantized: True)",
+          "in:    TensorNode #187 473_int8 shape: (8, 6, 6, 160) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #191 369_int8 shape: (8, 1, 1, 160) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 727,
+      "name": "Int8AveragePool (#75)",
+      "op": "OP_Caffe2_QuantizedAvgPool_8",
+      "padding": "NN_PAD_VALID",
+      "input": [[ 666, 0 ], [ 725, 0 ], [ 726, 0 ], [ 722, 0 ], [ 723, 0 ], [ 724, 0 ]],
+      "output": [
+        {"shape": [ 8, 1, 1, 160 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ConvNode #78 (quantized: True)",
+          "in:    TensorNode #191 369_int8 shape: (8, 1, 1, 160) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #26 0.additional_layers.1.1.weight_int8 shape: (378, 1, 1, 160) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "    TensorNode #38 0.additional_layers.1.1.bias_int8 shape: (378,) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #192 371_int8 shape: (8, 1, 1, 378) order: NHWC quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 728,
+      "name": "Int8ConvRelu (#76)",
+      "op": "OP_Caffe2_QuantizedConv2d_8x8to8",
+      "padding": "NN_PAD_NA",
+      "input": [[ 727, 0 ], [ 736, 0 ], [ 737, 0 ], [ 738, 0 ], [ 730, 0 ], [ 731, 0 ], [ 732, 0 ], [ 733, 0 ], [ 734, 0 ], [ 735, 0 ]],
+      "output": [
+        {"shape": [ 8, 1, 1, 378 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "ReshapeNode #81 (quantized: True)",
+          "in:    TensorNode #192 371_int8 shape: (8, 1, 1, 378) order: NHWC quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #211 joint distance heat maps_int8 shape: (8, 21, 18) order: None quantized: True format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 740,
+      "name": "Reshape (#79)",
+      "op": "OP_QuantizedReshape",
+      "padding": "NN_PAD_NA",
+      "input": [[ 728, 0 ], [ 739, 0 ], [ 741, 0 ], [ 742, 0 ]],
+      "output": [
+        {"shape": [ 8, 21, 18 ], "elem_size": 1},
+        {"shape": [ 1 ], "elem_size": 4},
+        {"shape": [ 1 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        [
+          "DequantizeNode #95 (quantized: True)",
+          "in:    TensorNode #211 joint distance heat maps_int8 shape: (8, 21, 18) order: None quantized: True format: TensorLayout.PLAIN None",
+          "out:    TensorNode #212 joint distance heat maps shape: (8, 21, 18) order: None quantized: False format: TensorLayout.PLAIN None"
+        ]
+      ],
+      "id": 745,
+      "name": "QuantizedDequantizeNode:0",
+      "op": "OP_Caffe2_Dequantize",
+      "padding": "NN_PAD_NA",
+      "input": [[ 740, 0 ], [ 743, 0 ], [ 744, 0 ]],
+      "output": [
+        {"shape": [ 8, 21, 18 ], "elem_size": 4}
+      ]
+    },
+    {
+      "comment": [
+        "TensorNode #201 joint location heat maps shape: (8, 21, 18, 18) order: NCHW quantized: False format: TensorLayout.PLAIN None",
+        "TensorNode #212 joint distance heat maps shape: (8, 21, 18) order: None quantized: False format: TensorLayout.PLAIN None"
+      ],
+      "id": 746,
+      "name": "",
+      "op": "OP_OUTPUT",
+      "padding": "NN_PAD_NA",
+      "input": [[ 721, 0 ], [ 745, 0 ]],
+      "output": []
+    }
+  ],
+  "input": [
+    {
+      "shape": [ 8, 1, 96, 96 ],
+      "order": "NCHW",
+      "name": "[mono]_int8",
+      "quantized": true,
+      "scale": 0.003921568859368563,
+      "zero_point": 0
+    },
+    {
+      "shape": [ 8, 63 ],
+      "order": "NONE",
+      "name": "[prevNormalizedXYDistance]",
+      "quantized": false,
+      "scale": 0.0,
+      "zero_point": 0
+    }
+  ],
+  "output": [
+    {
+      "shape": [ 8, 21, 18, 18 ],
+      "order": "NCHW",
+      "name": "joint location heat maps",
+      "quantized": false,
+      "scale": 0.0,
+      "zero_point": 0
+    },
+    {
+      "shape": [ 8, 21, 18 ],
+      "order": "NONE",
+      "name": "joint distance heat maps",
+      "quantized": false,
+      "scale": 0.0,
+      "zero_point": 0
+    }
+  ],
+  "args": {
+    "evalKernel": "9",
+    "invalidXYVal": "0",
+    "invalidDVal": "0",
+    "nnInputSize": "96",
+    "minDClamp": "-0.25",
+    "maxDClamp": "1.25",
+    "dPredictionScale": "0.5",
+    "outputScale": "183",
+    "heatMapSize": "18",
+    "heatMapSigma": "1.0606601717798212",
+    "numFeatures": "21",
+    "inputChannelNames": "[mono, prevNormalizedXYDistance]",
+    "outputNames": "[joint location heat maps, joint distance heat maps]",
+    "glusterPath": "manifold://oculus-nimble/tree/Users/nsorensen/output/NDEv4_experimental_20/caffe2_manual"
+  },
+  "_": "@generated"
+}

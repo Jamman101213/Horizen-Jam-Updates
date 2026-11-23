@@ -1,0 +1,9 @@
+# Start explicitly in Factory test mode to bring up adb
+on factorytest
+    start usbd
+
+service usbd /system/bin/usbd
+    class late_start
+    oneshot
+    user root
+    group root usb system

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.horizenjam.settings">
+        <permission name="android.permission.WRITE_SETTINGS" />
+        <permission name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    </privapp-permissions>
+    <privapp-permissions package="com.horizenjam.files">
+        <permission name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    </privapp-permissions>
+    <privapp-permissions package="com.horizenjam.presetup">
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    </privapp-permissions>
+    <privapp-permissions package="com.topjohnwu.magisk">
+        <permission name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    </privapp-permissions>
+</permissions>

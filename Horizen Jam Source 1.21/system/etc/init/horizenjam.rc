@@ -1,0 +1,13 @@
+# Horizen Jam 1.0 (Build HJ-0001) - Factory-Reset-Safe Boot Service
+# Runs STRICTLY after sys.boot_completed=1 (never in post-fs-data) so Android 10
+# FBE (fileencryption=ice) initializes cleanly on every factory reset!
+service horizenjam_boot /system/bin/sh /system/etc/horizenjam/service.sh
+    class late_start
+    user root
+    group root
+    seclabel u:r:magisk:s0
+    oneshot
+    disabled
+
+on property:sys.boot_completed=1
+    start horizenjam_boot

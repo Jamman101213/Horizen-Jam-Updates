@@ -1,0 +1,8 @@
+service vendor.power-hal-1-3 /vendor/bin/hw/android.hardware.power@1.3-service-libperfmgr
+    class hal
+    user root
+    group system
+
+# restart powerHAL when framework died
+on property:init.svc.zygote=restarting
+   restart vendor.power-hal-1-3

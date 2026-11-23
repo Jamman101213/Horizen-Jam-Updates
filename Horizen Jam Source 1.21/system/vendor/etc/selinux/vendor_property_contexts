@@ -1,0 +1,63 @@
+#line 1 "device/oculus/monterey/sepolicy/vendor/common/property_contexts"
+# Bluetooth
+persist.vendor.bluetooth.           u:object_r:vendor_bluetooth_prop:s0
+persist.vendor.service.bdroid.      u:object_r:vendor_bluetooth_prop:s0
+vendor.bluetooth.                   u:object_r:vendor_bluetooth_prop:s0
+vendor.qcom.bluetooth.              u:object_r:vendor_bluetooth_prop:s0
+
+# Build
+ro.vendor.build.                    u:object_r:vendor_build_prop:s0
+
+# DRM
+vendor.drm_ta_loaded                u:object_r:vendor_drm_prop:s0
+
+# Graphics
+persist.vendor.display.             u:object_r:vendor_display_prop:s0
+ro.vendor.display.                  u:object_r:vendor_display_prop:s0
+vendor.display.                     u:object_r:vendor_display_prop:s0
+
+# DSP
+vendor.fastrpc.                     u:object_r:vendor_adsprpc_prop:s0
+
+# Init
+vendor.powerhal.init                u:object_r:vendor_init_prop:s0
+
+# ODM
+ro.odm.build.                       u:object_r:vendor_odm_prop:s0
+ro.odm.product.                     u:object_r:vendor_odm_prop:s0
+
+# Peripherals
+vendor.peripheral.                  u:object_r:vendor_per_mgr_state_prop:s0
+
+# Product
+ro.vendor.product.                  u:object_r:vendor_product_prop:s0
+
+# Tee
+vendor.sys.listeners.registered     u:object_r:vendor_tee_listener_prop:s0
+
+# Wifi
+vendor.wlan.driver.version          u:object_r:vendor_wifi_version:s0
+vendor.wlan.firmware.version        u:object_r:vendor_wifi_version:s0
+wifi.active.interface               u:object_r:exported_wifi_prop:s0
+#line 1 "vendor/oculus/sepolicy-common/vendor/property_contexts"
+persist.vendor.camera.                        u:object_r:vendor_camera_prop:s0
+persist.vendor.ovr.                           u:object_r:vendor_oculus_prop:s0
+persist.vendor.usb.                           u:object_r:vendor_usb_prop:s0
+ro.vendor.audio.fcs.speaker                   u:object_r:vendor_board_init_prop:s0
+ro.vendor.hw.device_config                    u:object_r:vendor_board_init_prop:s0
+ro.vendor.hw.deviceid                         u:object_r:vendor_board_init_prop:s0
+ro.vendor.product.model_extended              u:object_r:vendor_board_init_prop:s0
+ro.vendor.usb.                                u:object_r:vendor_usb_prop:s0
+vendor.board_init.complete                    u:object_r:vendor_board_init_prop:s0
+vendor.debug.camera.                          u:object_r:vendor_camera_prop:s0
+vendor.debug.fw_init.                         u:object_r:vendor_fw_init_prop:s0
+vendor.fw_init.                               u:object_r:vendor_fw_init_prop:s0
+vendor.ovr.                                   u:object_r:vendor_oculus_prop:s0
+vendor.powerhal.                              u:object_r:vendor_powerhal_prop:s0
+vendor.syncbosshal.                           u:object_r:vendor_syncboss_prop:s0
+vendor.usb.                                   u:object_r:vendor_usb_prop:s0
+vendor.vidc.                                  u:object_r:vendor_vidc_prop:s0
+#line 1 "system/sepolicy/reqd_mask/property_contexts"
+# empty property_contexts file - this file is used to generate an empty
+# non-platform property context for devices without any property_contexts
+# customizations.

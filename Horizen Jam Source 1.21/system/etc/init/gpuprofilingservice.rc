@@ -1,0 +1,16 @@
+service gpuprofserver /system/bin/gpuprofserver
+    class main
+    user system
+    group system inet
+    disabled
+    socket gpuprofserver_gl stream 0666
+    socket gpuprofserver_vk stream 0666
+
+on property:debug.vr.gpuprofilingservice=1
+    start gpuprofserver
+
+on property:debug.vr.gpuprofilingservice=0
+    stop gpuprofserver
+
+on property:persist.vr.gpuprofilingservice=1
+    start gpuprofserver
